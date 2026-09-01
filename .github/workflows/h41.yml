@@ -1,0 +1,48 @@
+name: H41 daily observation
+
+on:
+  schedule:
+    - cron: '41 6 * * *'
+      timezone: 'Europe/Madrid'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: h41-daily
+  cancel-in-progress: false
+
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout H41
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Observe humanity
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python src/observe.py
+
+      - name: Rebuild public archive
+        run: python src/build_site.py
+
+      - name: Commit transmission
+        run: |
+          git config user.name "H41"
+          git config user.email "h41@users.noreply.github.com"
+          git add observations state docs
+          git diff --cached --quiet && exit 0
+          git commit -m "H41: daily transmission"
+          git push
