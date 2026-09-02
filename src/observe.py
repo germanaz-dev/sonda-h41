@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import time
 from datetime import date
 from pathlib import Path
 
@@ -106,13 +107,31 @@ The returned deep_memory array replaces your previous deep memory.
 Keep it selective.
 """
 
-    response = client.models.generate_content(
-        model=CFG["model"],
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-        ),
-    )
+    response = None
+
+for attempt in range(4):
+    try:
+        response = client.models.generate_content(
+            model=CFG["model"],
+            contents=task,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+            ),
+        )
+        break
+
+    except Exception as exc:
+        if attempt == 3:
+            raise
+
+        wait_seconds = 20 * (attempt + 1)
+
+        print(
+            f"Gemini unavailable. "
+            f"Retrying in {wait_seconds}s..."
+        )
+
+        time.sleep(wait_seconds)
 
     result = json.loads(response.text)
 
