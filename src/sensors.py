@@ -16,7 +16,16 @@ def fetch_present_world(max_records=40):
         "sort": "HybridRel",
     }
 
-    r = requests.get(GDELT_URL, params=params, timeout=30)
+    headers = {
+    "User-Agent": "H41-Human-Observation-Probe/1.0"
+}
+
+r = requests.get(
+    GDELT_URL,
+    params=params,
+    headers=headers,
+    timeout=30,
+)
     r.raise_for_status()
 
     data = r.json()
