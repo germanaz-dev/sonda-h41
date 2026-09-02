@@ -1,7 +1,9 @@
 from __future__ import annotations
 
-import requests
+import json
 from datetime import datetime, timezone
+
+import requests
 
 
 GDELT_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
@@ -17,15 +19,16 @@ def fetch_present_world(max_records=40):
     }
 
     headers = {
-    "User-Agent": "H41-Human-Observation-Probe/1.0"
-}
+        "User-Agent": "H41-Human-Observation-Probe/1.0"
+    }
 
-r = requests.get(
-    GDELT_URL,
-    params=params,
-    headers=headers,
-    timeout=30,
-)
+    r = requests.get(
+        GDELT_URL,
+        params=params,
+        headers=headers,
+        timeout=30,
+    )
+
     r.raise_for_status()
 
     data = r.json()
@@ -51,8 +54,6 @@ r = requests.get(
 
 
 if __name__ == "__main__":
-    import json
-
     print(
         json.dumps(
             fetch_present_world(),
