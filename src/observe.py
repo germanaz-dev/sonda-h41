@@ -28,7 +28,11 @@ def load_json(path, default):
 
 def save_json(path, data):
     path.write_text(
-        json.dumps(data, indent=2, ensure_ascii=False)
+        json.dumps(
+            data,
+            indent=2,
+            ensure_ascii=False,
+        )
     )
 
 
@@ -71,8 +75,14 @@ how you observe humanity months from now.
 
 Do not preserve something merely because it was dramatic.
 Do not try to summarize the week.
-You may preserve an uncertainty, contradiction, recurring pattern,
-failed hypothesis, unresolved question, or change in your own thinking.
+
+You may preserve:
+- an uncertainty,
+- a contradiction,
+- a recurring pattern,
+- a failed hypothesis,
+- an unresolved question,
+- or a change in your own thinking.
 
 You may also decide that nothing deserves promotion.
 
@@ -92,6 +102,7 @@ Return ONLY valid JSON:
 }}
 
 The returned deep_memory array replaces your previous deep memory.
+
 Keep it selective.
 """
 
@@ -99,7 +110,7 @@ Keep it selective.
         model=CFG["model"],
         contents=prompt,
         config=types.GenerateContentConfig(
-            response_mime_type="application/json"
+            response_mime_type="application/json",
         ),
     )
 
@@ -140,7 +151,11 @@ def main():
 
     mode = "present" if day % 2 else "past"
 
-    world = fetch_present_world() if mode == "present" else None
+    world = (
+        fetch_present_world()
+        if mode == "present"
+        else None
+    )
 
     remaining = CFG["total_days"] - day
 
@@ -169,20 +184,28 @@ DEEP MEMORY — SELECTED BY YOU
 
 {json.dumps(deep, ensure_ascii=False, indent=2)}
 
+"""
 
-TODAY'S TASK
     if world is not None:
         task += f"""
-
 PRESENT-DAY WORLD SENSOR
 
 {json.dumps(world, ensure_ascii=False, indent=2)}
 
 This sensor is incomplete and biased by its sources.
-Treat it as a field of possible signals, not as a definition
-of what matters in humanity today.
+
+Treat it as a field of possible signals,
+not as a definition of what matters in humanity today.
+
+You are not required to choose the most prominent,
+dramatic or frequently repeated item.
+
+You may notice a small signal if it seems more revealing.
+
 """
 
+    task += """
+TODAY'S TASK
 """
 
     if mode == "present":
@@ -190,13 +213,27 @@ of what matters in humanity today.
 Observe something occurring in, or revealing about,
 the human world now.
 
-Use Google Search when useful.
+Use the PRESENT-DAY WORLD SENSOR above as your evidence field.
+
+Do not assume the sensor is complete.
 
 Do not simply choose the largest headline.
+
 Choose what seems worth noticing.
+
+If several sources repeat the same event,
+do not confuse repetition with importance.
 
 Carry something from yesterday into what you choose
 to notice today.
+
+If this is your first observation,
+treat it as first contact.
+
+Ground factual claims in the material provided where possible.
+
+If the evidence available to you is insufficient,
+make that limitation explicit rather than inventing details.
 """
 
     else:
@@ -204,13 +241,25 @@ to notice today.
 Travel into the human past because of something
 that remained alive in yesterday's observation.
 
-Use Google Search to ground factual claims.
-
 Do not manufacture a historical analogy merely
 because it is convenient.
 
 The past should modify, challenge or deepen
 something you saw yesterday.
+
+Do not invent factual historical details.
+
+Work from your existing knowledge conservatively.
+
+If you are uncertain about a date, person, event,
+causal relationship or historical detail,
+make that uncertainty explicit.
+
+The purpose of the historical observation is not
+to prove that history repeats.
+
+It is to use the past as another instrument
+for understanding the question you carried forward.
 """
 
     client = genai.Client(
@@ -221,7 +270,6 @@ something you saw yesterday.
         model=CFG["model"],
         contents=task,
         config=types.GenerateContentConfig(
-            
             response_mime_type="application/json",
         ),
     )
@@ -246,7 +294,15 @@ title: {json.dumps(data["title"])}
 **Question left open:** {data.get("open_question", "")}
 """
 
-    output_path.write_text(markdown)
+    output_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    output_path.write_text(
+        markdown,
+        encoding="utf-8",
+    )
 
     # -----------------------------------------
     # Beliefs
@@ -255,15 +311,24 @@ title: {json.dumps(data["title"])}
     state["last_day"] = day
     state["last_date"] = today.isoformat()
 
-    for update in data.get("belief_updates", []):
-        state.setdefault("beliefs", []).append(
+    for update in data.get(
+        "belief_updates",
+        [],
+    ):
+        state.setdefault(
+            "beliefs",
+            [],
+        ).append(
             {
                 "day": day,
                 **update,
             }
         )
 
-    save_json(STATE_PATH, state)
+    save_json(
+        STATE_PATH,
+        state,
+    )
 
     # -----------------------------------------
     # Recent memory
@@ -273,19 +338,26 @@ title: {json.dumps(data["title"])}
         {
             "day": day,
             "date": today.isoformat(),
-            "memory": data.get("memory_note", ""),
+            "memory": data.get(
+                "memory_note",
+                "",
+            ),
             "open_question": data.get(
-                "open_question", ""
+                "open_question",
+                "",
             ),
         }
     )
 
-    # H41 retains detailed recent memory
+    # H41 keeps detailed recent memory
     # for fourteen observations.
 
     recent = recent[-14:]
 
-    save_json(RECENT_PATH, recent)
+    save_json(
+        RECENT_PATH,
+        recent,
+    )
 
     # -----------------------------------------
     # Deep-memory consolidation
@@ -301,7 +373,10 @@ title: {json.dumps(data["title"])}
             deep,
         )
 
-        save_json(DEEP_PATH, deep)
+        save_json(
+            DEEP_PATH,
+            deep,
+        )
 
     print(
         f"Created observation {day}. "
