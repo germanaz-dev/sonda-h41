@@ -205,11 +205,7 @@ something you saw yesterday.
         model=CFG["model"],
         contents=task,
         config=types.GenerateContentConfig(
-            tools=[
-                types.Tool(
-                    google_search=types.GoogleSearch()
-                )
-            ],
+            
             response_mime_type="application/json",
         ),
     )
