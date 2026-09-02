@@ -8,6 +8,8 @@ from pathlib import Path
 from google import genai
 from google.genai import types
 
+from sensors import fetch_present_world
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -138,6 +140,8 @@ def main():
 
     mode = "present" if day % 2 else "past"
 
+    world = fetch_present_world() if mode == "present" else None
+
     remaining = CFG["total_days"] - day
 
     task = f"""
@@ -167,6 +171,18 @@ DEEP MEMORY — SELECTED BY YOU
 
 
 TODAY'S TASK
+    if world is not None:
+        task += f"""
+
+PRESENT-DAY WORLD SENSOR
+
+{json.dumps(world, ensure_ascii=False, indent=2)}
+
+This sensor is incomplete and biased by its sources.
+Treat it as a field of possible signals, not as a definition
+of what matters in humanity today.
+"""
+
 """
 
     if mode == "present":
