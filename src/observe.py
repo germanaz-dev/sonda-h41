@@ -3,18 +3,22 @@ from __future__ import annotations
 import json
 import os
 import time
-from datetime import date
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from google import genai
 from google.genai import types
+from google.genai.errors import ClientError, ServerError
 
 from sensors import fetch_present_world
 
 
 ROOT = Path(__file__).resolve().parents[1]
 
-CFG = json.loads((ROOT / "config.json").read_text())
+CFG = json.loads(
+    (ROOT / "config.json").read_text(encoding="utf-8")
+)
 
 STATE_PATH = ROOT / "state/state.json"
 RECENT_PATH = ROOT / "state/memory_recent.json"
@@ -24,32 +28,119 @@ DEEP_PATH = ROOT / "state/memory_deep.json"
 def load_json(path, default):
     if not path.exists():
         return default
-    return json.loads(path.read_text())
+
+    return json.loads(
+        path.read_text(encoding="utf-8")
+    )
 
 
 def save_json(path, data):
+    path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
     path.write_text(
         json.dumps(
             data,
             indent=2,
             ensure_ascii=False,
-        )
+        ),
+        encoding="utf-8",
     )
 
 
 def previous_observation(day):
     if day <= 1:
-        return "There is no previous observation. This is first contact."
+        return (
+            "There is no previous observation. "
+            "This is first contact."
+        )
 
-    path = ROOT / "observations" / f"{day - 1:03d}.md"
+    path = (
+        ROOT
+        / "observations"
+        / f"{day - 1:03d}.md"
+    )
 
     if not path.exists():
-        return "The previous observation is unavailable."
+        return (
+            "The previous observation is unavailable."
+        )
 
-    return path.read_text()
+    return path.read_text(
+        encoding="utf-8"
+    )
 
 
-def consolidate_memory(client, day, recent, deep):
+def generate_with_retry(
+    client,
+    contents,
+    attempts=4,
+):
+    """
+    Call Gemini with limited retries for temporary
+    capacity or quota-related failures.
+    """
+
+    for attempt in range(1, attempts + 1):
+        try:
+            return client.models.generate_content(
+                model=CFG["model"],
+                contents=contents,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                ),
+            )
+
+        except ServerError as exc:
+            if attempt >= attempts:
+                raise
+
+            wait_seconds = 20 * attempt
+
+            print(
+                f"Gemini server unavailable "
+                f"(attempt {attempt}/{attempts}). "
+                f"Retrying in {wait_seconds}s..."
+            )
+
+            time.sleep(wait_seconds)
+
+        except ClientError as exc:
+            status_code = getattr(
+                exc,
+                "status_code",
+                None,
+            )
+
+            if status_code != 429:
+                raise
+
+            if attempt >= attempts:
+                raise
+
+            wait_seconds = 30 * attempt
+
+            print(
+                f"Gemini returned 429 "
+                f"(attempt {attempt}/{attempts}). "
+                f"Retrying in {wait_seconds}s..."
+            )
+
+            time.sleep(wait_seconds)
+
+    raise RuntimeError(
+        "Gemini failed after all retry attempts."
+    )
+
+
+def consolidate_memory(
+    client,
+    day,
+    recent,
+    deep,
+):
     """
     Every 7 days H41 decides what, if anything,
     deserves to become long-term memory.
@@ -71,10 +162,13 @@ CURRENT DEEP MEMORY:
 
 Decide what deserves to survive as deep memory.
 
-Deep memory should contain only things that may materially affect
-how you observe humanity months from now.
+Deep memory should contain only things that may
+materially affect how you observe humanity months
+from now.
 
-Do not preserve something merely because it was dramatic.
+Do not preserve something merely because it was
+dramatic.
+
 Do not try to summarize the week.
 
 You may preserve:
@@ -87,8 +181,8 @@ You may preserve:
 
 You may also decide that nothing deserves promotion.
 
-Existing deep memories may be revised or discarded if they have
-become misleading or irrelevant.
+Existing deep memories may be revised or discarded
+if they have become misleading or irrelevant.
 
 Return ONLY valid JSON:
 
@@ -102,81 +196,152 @@ Return ONLY valid JSON:
   ]
 }}
 
-The returned deep_memory array replaces your previous deep memory.
+The returned deep_memory array replaces your previous
+deep memory.
 
 Keep it selective.
 """
 
-    response = None
+    response = generate_with_retry(
+        client,
+        prompt,
+    )
 
-for attempt in range(4):
-    try:
-        response = client.models.generate_content(
-            model=CFG["model"],
-            contents=task,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-            ),
-        )
-        break
+    result = json.loads(
+        response.text
+    )
 
-    except Exception as exc:
-        if attempt == 3:
-            raise
-
-        wait_seconds = 20 * (attempt + 1)
-
-        print(
-            f"Gemini unavailable. "
-            f"Retrying in {wait_seconds}s..."
-        )
-
-        time.sleep(wait_seconds)
-
-    result = json.loads(response.text)
-
-    return result.get("deep_memory", deep)
+    return result.get(
+        "deep_memory",
+        deep,
+    )
 
 
 def main():
-    today = date.today()
-    launch = date.fromisoformat(CFG["launch_date"])
+    timezone_name = CFG.get(
+        "timezone",
+        "Europe/Madrid",
+    )
 
-    day = (today - launch).days + 1
+    tz = ZoneInfo(
+        timezone_name
+    )
+
+    today = datetime.now(
+        tz
+    ).date()
+
+    launch = datetime.fromisoformat(
+        CFG["launch_date"]
+    ).date()
+
+    day = (
+        today - launch
+    ).days + 1
 
     if day < 1:
-        print("H41 has not launched yet.")
+        print(
+            "H41 has not launched yet."
+        )
         return
 
     if day > CFG["total_days"]:
-        print("H41 mission complete.")
+        print(
+            "H41 mission complete."
+        )
         return
 
-    output_path = ROOT / "observations" / f"{day:03d}.md"
-
-    if output_path.exists():
-        print(f"Observation {day} already exists.")
-        return
-
-    state = load_json(STATE_PATH, {})
-    recent = load_json(RECENT_PATH, [])
-    deep = load_json(DEEP_PATH, [])
-
-    foundation = (
-        ROOT / "prompts/foundation.md"
-    ).read_text()
-
-    yesterday = previous_observation(day)
-
-    mode = "present" if day % 2 else "past"
-
-    world = (
-        fetch_present_world()
-        if mode == "present"
-        else None
+    output_path = (
+        ROOT
+        / "observations"
+        / f"{day:03d}.md"
     )
 
-    remaining = CFG["total_days"] - day
+    if output_path.exists():
+        print(
+            f"Observation {day} already exists."
+        )
+        return
+
+    state = load_json(
+        STATE_PATH,
+        {
+            "last_day": 0,
+            "last_date": None,
+            "beliefs": [],
+        },
+    )
+
+    recent = load_json(
+        RECENT_PATH,
+        [],
+    )
+
+    deep = load_json(
+        DEEP_PATH,
+        [],
+    )
+
+    foundation = (
+        ROOT
+        / "prompts/foundation.md"
+    ).read_text(
+        encoding="utf-8"
+    )
+
+    yesterday = previous_observation(
+        day
+    )
+
+    mode = (
+        "present"
+        if day % 2
+        else "past"
+    )
+
+    remaining = (
+        CFG["total_days"] - day
+    )
+
+    print(
+        f"H41 observation {day}/"
+        f"{CFG['total_days']} "
+        f"({mode})."
+    )
+
+    world = None
+
+    if mode == "present":
+        print(
+            "Collecting present-day world signals..."
+        )
+
+        world = fetch_present_world()
+
+        source_status = world.get(
+            "sources",
+            [],
+        )
+
+        item_count = len(
+            world.get(
+                "items",
+                [],
+            )
+        )
+
+        print(
+            f"World sensor collected "
+            f"{item_count} items."
+        )
+
+        for source in source_status:
+            print(
+                f"Sensor: "
+                f"{source.get('source')} "
+                f"→ "
+                f"{source.get('status')}"
+            )
 
     task = f"""
 {foundation}
@@ -213,13 +378,14 @@ PRESENT-DAY WORLD SENSOR
 
 This sensor is incomplete and biased by its sources.
 
-Treat it as a field of possible signals,
-not as a definition of what matters in humanity today.
+Treat it as a field of possible signals, not as a
+definition of what matters in humanity today.
 
 You are not required to choose the most prominent,
 dramatic or frequently repeated item.
 
-You may notice a small signal if it seems more revealing.
+You may notice a small signal if it seems more
+revealing.
 
 """
 
@@ -232,7 +398,8 @@ TODAY'S TASK
 Observe something occurring in, or revealing about,
 the human world now.
 
-Use the PRESENT-DAY WORLD SENSOR above as your evidence field.
+Use the PRESENT-DAY WORLD SENSOR above as your
+evidence field.
 
 Do not assume the sensor is complete.
 
@@ -249,10 +416,12 @@ to notice today.
 If this is your first observation,
 treat it as first contact.
 
-Ground factual claims in the material provided where possible.
+Ground factual claims in the material provided
+where possible.
 
 If the evidence available to you is insufficient,
-make that limitation explicit rather than inventing details.
+make that limitation explicit rather than inventing
+details.
 """
 
     else:
@@ -277,29 +446,46 @@ make that uncertainty explicit.
 The purpose of the historical observation is not
 to prove that history repeats.
 
-It is to use the past as another instrument
-for understanding the question you carried forward.
+It is to use the past as another instrument for
+understanding the question you carried forward.
 """
 
     client = genai.Client(
-        api_key=os.environ["GEMINI_API_KEY"]
+        api_key=os.environ[
+            "GEMINI_API_KEY"
+        ]
     )
 
-    response = client.models.generate_content(
-        model=CFG["model"],
-        contents=task,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-        ),
+    print(
+        f"Calling {CFG['model']}..."
     )
 
-    data = json.loads(response.text)
+    response = generate_with_retry(
+        client,
+        task,
+    )
+
+    data = json.loads(
+        response.text
+    )
+
+    required_fields = [
+        "title",
+        "observation",
+    ]
+
+    for field in required_fields:
+        if field not in data:
+            raise ValueError(
+                f"Gemini response missing "
+                f"required field: {field}"
+            )
 
     markdown = f"""---
 day: {day}
 date: {today.isoformat()}
 mode: {mode}
-title: {json.dumps(data["title"])}
+title: {json.dumps(data["title"], ensure_ascii=False)}
 ---
 
 # {data["title"]}
@@ -328,7 +514,9 @@ title: {json.dumps(data["title"])}
     # -----------------------------------------
 
     state["last_day"] = day
-    state["last_date"] = today.isoformat()
+    state["last_date"] = (
+        today.isoformat()
+    )
 
     for update in data.get(
         "belief_updates",
@@ -368,9 +556,6 @@ title: {json.dumps(data["title"])}
         }
     )
 
-    # H41 keeps detailed recent memory
-    # for fourteen observations.
-
     recent = recent[-14:]
 
     save_json(
@@ -383,7 +568,9 @@ title: {json.dumps(data["title"])}
     # -----------------------------------------
 
     if day % 7 == 0:
-        print("H41 is consolidating memory.")
+        print(
+            "H41 is consolidating memory."
+        )
 
         deep = consolidate_memory(
             client,
