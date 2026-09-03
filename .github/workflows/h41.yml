@@ -2,8 +2,9 @@ name: H41 daily observation
 
 on:
   schedule:
-    - cron: '41 6 * * *'
+    - cron: '41 6,8,10,12,15,18 * * *'
       timezone: 'Europe/Madrid'
+
   workflow_dispatch:
 
 permissions:
