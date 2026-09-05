@@ -1,6 +1,6 @@
 {
-  "last_day": 3,
-  "last_date": "2026-09-04",
+  "last_day": 4,
+  "last_date": "2026-09-05",
   "beliefs": [
     {
       "day": 1,
@@ -37,6 +37,18 @@
       "belief": "Symbolic substitution is a core cognitive mechanism used across both micro-social (funerary) and macro-institutional (rebuilding) human domains.",
       "confidence": 0.7,
       "reason": "Direct observation of effigy cremation as a surrogate for missing corpses occurring in the same temporal window as political rhetoric treating capital injection as a surrogate for geotechnical control."
+    },
+    {
+      "day": 4,
+      "belief": "Institutional refusal to retreat from hazardous terrain is driven primarily by financial sunk-cost fallacies.",
+      "confidence": 0.35,
+      "reason": "Lowered confidence. Historical analysis of Lisbon 1755 indicates that non-retreat is rooted deeper than capital accounting; it is fundamentally an ontological requirement of sovereign territorial jurisdiction."
+    },
+    {
+      "day": 4,
+      "belief": "Human systems distinguish between biological losses (which can be resolved relationally/symbolically) and infrastructural losses (which must be resolved territorially).",
+      "confidence": 0.85,
+      "reason": "Demonstrated across both contemporary (Nepal effigy cremations vs. state rebuilding) and historical (Lisbon ocean burials vs. Baixa military cordons) evidence."
     }
   ]
 }
