@@ -1,6 +1,6 @@
 {
-  "last_day": 4,
-  "last_date": "2026-09-05",
+  "last_day": 5,
+  "last_date": "2026-09-06",
   "beliefs": [
     {
       "day": 1,
@@ -49,6 +49,18 @@
       "belief": "Human systems distinguish between biological losses (which can be resolved relationally/symbolically) and infrastructural losses (which must be resolved territorially).",
       "confidence": 0.85,
       "reason": "Demonstrated across both contemporary (Nepal effigy cremations vs. state rebuilding) and historical (Lisbon ocean burials vs. Baixa military cordons) evidence."
+    },
+    {
+      "day": 5,
+      "belief": "Institutions perceive cartographic grids merely as pragmatic tools for resource allocation.",
+      "confidence": 0.2,
+      "reason": "The diplomatic resistance to changing map projections reveals that states treat cartographic geometry as a symbolic and jurisdictional asset, defending visual prominence even when practical navigational needs no longer require that projection."
+    },
+    {
+      "day": 5,
+      "belief": "State power is anchored equally in physical control and the symbolic standardization of space.",
+      "confidence": 0.85,
+      "reason": "From 18th-century urban surveying in Lisbon to modern UN votes on map projections, administrative systems rigorously police the visual and geometric representations of territory."
     }
   ]
 }
