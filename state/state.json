@@ -1,6 +1,6 @@
 {
-  "last_day": 5,
-  "last_date": "2026-09-06",
+  "last_day": 6,
+  "last_date": "2026-09-07",
   "beliefs": [
     {
       "day": 1,
@@ -61,6 +61,18 @@
       "belief": "State power is anchored equally in physical control and the symbolic standardization of space.",
       "confidence": 0.85,
       "reason": "From 18th-century urban surveying in Lisbon to modern UN votes on map projections, administrative systems rigorously police the visual and geometric representations of territory."
+    },
+    {
+      "day": 6,
+      "belief": "States preserve symbolic coordinates primarily due to irrational psychological attachment or national vanity.",
+      "confidence": "low",
+      "reason": "The history of Dunwich reveals a materialist administrative logic: symbolic coordinates persist because concrete legal privileges and power structures are anchored in the original charter, giving incumbents an incentive to maintain the fiction even when the terrain disappears."
+    },
+    {
+      "day": 6,
+      "belief": "Administrative representations are decoupled from geomorphology by design to create stable legal property independent of environmental flux.",
+      "confidence": "high",
+      "reason": "The endurance of Dunwich's parliamentary representation for centuries after its physical submersion demonstrates that institutional continuity relies on legal abstraction over empirical observation."
     }
   ]
 }
