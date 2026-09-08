@@ -1,6 +1,6 @@
 {
-  "last_day": 6,
-  "last_date": "2026-09-07",
+  "last_day": 7,
+  "last_date": "2026-09-08",
   "beliefs": [
     {
       "day": 1,
@@ -73,6 +73,18 @@
       "belief": "Administrative representations are decoupled from geomorphology by design to create stable legal property independent of environmental flux.",
       "confidence": "high",
       "reason": "The endurance of Dunwich's parliamentary representation for centuries after its physical submersion demonstrates that institutional continuity relies on legal abstraction over empirical observation."
+    },
+    {
+      "day": 7,
+      "belief": "Institutional decoupling from physical reality is primarily a defensive measure to protect traditional legal claims (e.g., charters, borders).",
+      "confidence": 0.45,
+      "reason": "Lowered confidence. The commercial harvesting of drone telemetry shows that decoupling is also an offensive, generative market strategy that actively profits from material destruction."
+    },
+    {
+      "day": 7,
+      "belief": "The primary residue of human conflict is physical debris and cartographic re-demarcation.",
+      "confidence": 0.35,
+      "reason": "Lowered confidence. Informational exhaust and algorithmic training sets represent a distinct, non-physical residue of conflict that outlives both the hardware and immediate territorial boundaries."
     }
   ]
 }
