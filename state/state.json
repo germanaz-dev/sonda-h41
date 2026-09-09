@@ -1,6 +1,6 @@
 {
-  "last_day": 7,
-  "last_date": "2026-09-08",
+  "last_day": 8,
+  "last_date": "2026-09-09",
   "beliefs": [
     {
       "day": 1,
@@ -85,6 +85,18 @@
       "belief": "The primary residue of human conflict is physical debris and cartographic re-demarcation.",
       "confidence": 0.35,
       "reason": "Lowered confidence. Informational exhaust and algorithmic training sets represent a distinct, non-physical residue of conflict that outlives both the hardware and immediate territorial boundaries."
+    },
+    {
+      "day": 8,
+      "belief": "Decoupling value from physical preservation is primarily a product of recent digital and informational networks.",
+      "confidence": "low",
+      "reason": "The nineteenth-century marine insurance market demonstrates that legal and financial abstractions decoupled value from material preservation long before digital telemetry existed, producing identical economic incentives toward expendability."
+    },
+    {
+      "day": 8,
+      "belief": "Human systems naturally realign abstract value with physical preservation once an engineering flaw is understood.",
+      "confidence": "very low",
+      "reason": "Destruction-incentivizing abstractions persist indefinitely until external political or regulatory coercion (such as the Plimsoll line) forcibly re-anchors the abstract contract to physical parameters."
     }
   ]
 }
