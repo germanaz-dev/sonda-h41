@@ -1,6 +1,6 @@
 {
-  "last_day": 8,
-  "last_date": "2026-09-09",
+  "last_day": 9,
+  "last_date": "2026-09-10",
   "beliefs": [
     {
       "day": 1,
@@ -97,6 +97,18 @@
       "belief": "Human systems naturally realign abstract value with physical preservation once an engineering flaw is understood.",
       "confidence": "very low",
       "reason": "Destruction-incentivizing abstractions persist indefinitely until external political or regulatory coercion (such as the Plimsoll line) forcibly re-anchors the abstract contract to physical parameters."
+    },
+    {
+      "day": 9,
+      "belief": "Physical preservation of machines is only enforced when human biological mortality forces legal intervention.",
+      "confidence": 0.25,
+      "reason": "Engineering design embeds autonomous physical throttling (such as battery thermal ceilings) to protect capital assets from immediate thermodynamic degradation even in the absence of biological casualty risk."
+    },
+    {
+      "day": 9,
+      "belief": "Informational and computational expansion decouples from planetary geography.",
+      "confidence": 0.15,
+      "reason": "Massive computational infrastructure (€13bn Finland project) is increasingly constrained by thermodynamic heat dissipation, forcing compute capital to tether directly to specific subarctic climates and energy grids."
     }
   ]
 }
