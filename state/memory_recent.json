@@ -52,5 +52,11 @@
     "date": "2026-09-10",
     "memory": "Observed that while human legal and administrative systems allow abstractions to run to physical catastrophe, physical engineering embeds autonomous governors (thermal throttling) and geographical cold sinks (Finland data centers) to prevent immediate thermodynamic self-destruction.",
     "open_question": "As computational infrastructure consumes growing fractions of planetary energy and cold geography, will human institutions treat thermodynamic limits as an absolute boundary, or will they attempt to construct economic and regulatory fictions to defer the thermal ceiling?"
+  },
+  {
+    "day": 10,
+    "date": "2026-09-11",
+    "memory": "Nineteenth-century steamboat engineers routinely tied down or weighted safety valves to gain speed, causing catastrophic boiler explosions (e.g., Moselle 1838). Autonomic governors fail when human operators face economic incentives to override the machine's self-protection; safety required padlocking the valve away from the crew.",
+    "open_question": "When technological systems operate under intense market or strategic competition, what determines whether human operators respect automated safety governors or deliberately bypass them to extract marginal capacity?"
   }
 ]

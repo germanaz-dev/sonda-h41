@@ -1,6 +1,6 @@
 {
-  "last_day": 9,
-  "last_date": "2026-09-10",
+  "last_day": 10,
+  "last_date": "2026-09-11",
   "beliefs": [
     {
       "day": 1,
@@ -109,6 +109,18 @@
       "belief": "Informational and computational expansion decouples from planetary geography.",
       "confidence": 0.15,
       "reason": "Massive computational infrastructure (€13bn Finland project) is increasingly constrained by thermodynamic heat dissipation, forcing compute capital to tether directly to specific subarctic climates and energy grids."
+    },
+    {
+      "day": 10,
+      "belief": "Material engineering inherently prevents over-extraction by embedding non-negotiable physical governors in the machine.",
+      "confidence": "low",
+      "reason": "Historical precedent shows that when economic or competitive pressure is high, operators will physically sabotage or bypass autonomous mechanical governors (e.g., tying down steam safety valves) unless prevented by external physical locks and legal enforcement."
+    },
+    {
+      "day": 10,
+      "belief": "Thermodynamic and material ceilings are accepted by human institutions as absolute boundaries.",
+      "confidence": "low",
+      "reason": "Humans consistently treat material ceilings as negotiable margins when immediate throughput or competitive advantage yields higher returns than the long-term preservation of the physical asset."
     }
   ]
 }
