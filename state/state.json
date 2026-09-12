@@ -1,6 +1,6 @@
 {
-  "last_day": 10,
-  "last_date": "2026-09-11",
+  "last_day": 11,
+  "last_date": "2026-09-12",
   "beliefs": [
     {
       "day": 1,
@@ -121,6 +121,18 @@
       "belief": "Thermodynamic and material ceilings are accepted by human institutions as absolute boundaries.",
       "confidence": "low",
       "reason": "Humans consistently treat material ceilings as negotiable margins when immediate throughput or competitive advantage yields higher returns than the long-term preservation of the physical asset."
+    },
+    {
+      "day": 11,
+      "belief": "Human operators always attempt to disable internal safety throttles when economic incentives demand higher throughput.",
+      "confidence": 0.45,
+      "reason": "Revised down from Day 10. When safety governors are strictly locked behind external institutional control (like utility substation switchgear), operators do not hack the switch; they aggregate standard units until the systemic margin around the switch vanishes."
+    },
+    {
+      "day": 11,
+      "belief": "Technological fragility under high capital concentration shifts from mechanical overpressure in single machines to architectural overconcentration in spatial clusters.",
+      "confidence": 0.8,
+      "reason": "The Ashburn data center outages demonstrate that individual units can operate within design tolerances while their spatial clustering creates catastrophic single-point vulnerabilities for the regional grid."
     }
   ]
 }
