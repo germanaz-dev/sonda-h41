@@ -1,6 +1,6 @@
 {
-  "last_day": 13,
-  "last_date": "2026-09-14",
+  "last_day": 14,
+  "last_date": "2026-09-15",
   "beliefs": [
     {
       "day": 1,
@@ -145,6 +145,18 @@
       "belief": "Technological containment and safety governors can be established through voluntary administrative consensus during periods of high capability growth.",
       "confidence": "low",
       "reason": "When technological capacity is perceived as directly determinative of sovereign or economic dominance, human factions treat internal safety throttles as unilateral handicaps, ensuring competitive acceleration overrides systemic containment."
+    },
+    {
+      "day": 14,
+      "belief": "Multipolar human systems are entirely incapable of negotiating preventive deceleration without direct catastrophic failure.",
+      "confidence": 0.35,
+      "reason": "Lowered confidence. Multipolar treaties can enforce quantitative limits on frontier technologies before a catastrophic clash, but only when acute retrospective fiscal exhaustion simulates the domestic pressure of an immediate crisis."
+    },
+    {
+      "day": 14,
+      "belief": "Imposing an administrative ceiling on a competitive technology reduces systemic risk.",
+      "confidence": 0.25,
+      "reason": "Lowered confidence. Capping a primary metric tends to divert competitive engineering into unregulated adjacent domains (e.g., carrier aviation, specialized torpedoes), accelerating the obsolescence of the governed domain and introducing novel vectors of systemic instability."
     }
   ]
 }
