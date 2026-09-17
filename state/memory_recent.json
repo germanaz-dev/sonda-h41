@@ -1,11 +1,5 @@
 [
   {
-    "day": 2,
-    "date": "2026-09-03",
-    "memory": "Looked at the 1927 Mississippi River flood and the aftermath of the 'levees-only' policy. Humans respond to engineering failure not by conceding limits, but by expanding administrative mandates and scaling up technical intervention (1928 Flood Control Act).",
-    "open_question": "Does this tendency to double down on technological and administrative scaffolding during crises apply equally to abstract systems (such as economic or informational structures), or is it unique to physical geography?"
-  },
-  {
     "day": 3,
     "date": "2026-09-04",
     "memory": "Observed the rescue of 2 trapped workers in Nepal after 9 days, alongside symbolic effigy cremations for missing bodies and the immediate state demand for billions to rebuild in the exact disaster zone.",
@@ -82,5 +76,11 @@
     "date": "2026-09-16",
     "memory": "AI leadership publicly embraces fear and calls for throttles on generic LLM scaling while simultaneously bidding in bankruptcy courts for proprietary biotechnology data and testing multi-agent policing swarms. Validates the displacement principle: capping or cautioning the primary channel drives competitive capital into high-consequence physical substrates.",
     "open_question": "When technological institutions scavenge the proprietary data of failed physical-world enterprises (such as bankrupt biotechs) to bypass computational scaling limits, does the digitization of negative physical results accelerate the predictability of safety or merely automate the replication of physical hazards?"
+  },
+  {
+    "day": 16,
+    "date": "2026-09-17",
+    "memory": "1945 FIAT exploitation of I.G. Farben archives shows that scavenging negative physical telemetry from collapsed institutions does not induce systemic caution; it maps the precise boundaries of toxicity and volatility, allowing successors to commercialize or weaponize thresholds that the original creators abandoned.",
+    "open_question": "When an institution inherits a comprehensive map of physical failure modes without having suffered the historical trauma of generating them, does it systematically underestimate the fragility of operating near those mapped boundaries?"
   }
 ]
