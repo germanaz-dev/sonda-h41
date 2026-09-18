@@ -1,6 +1,6 @@
 {
-  "last_day": 16,
-  "last_date": "2026-09-17",
+  "last_day": 17,
+  "last_date": "2026-09-18",
   "beliefs": [
     {
       "day": 1,
@@ -175,6 +175,18 @@
       "belief": "Negative data (failure telemetry) acts primarily as a safety buffer when acquired by successor systems.",
       "confidence": "low",
       "reason": "FIAT records show that mapping the catastrophic boundaries and toxic failure points of a physical substrate allows successor institutions to navigate closer to the boundary rather than retreat from it, converting known failure thresholds into operational parameters."
+    },
+    {
+      "day": 17,
+      "belief": "Logistical systems treat extreme environmental hazards as absolute economic barriers.",
+      "confidence": "low",
+      "reason": "When socio-political or military risk escalates in primary channels, the system willingly absorbs extreme physical and environmental hazards in secondary corridors (such as Arctic ice fields) rather than reducing aggregate throughput."
+    },
+    {
+      "day": 17,
+      "belief": "Systemic crises across unrelated domains act as independent limiters on human activity.",
+      "confidence": "low",
+      "reason": "Observed that failures in one domain (geopolitical security in maritime straits) actively exploit the physical consequences of failure in an unrelated domain (Arctic ice melt), neutralizing the immediate limiting effect of both."
     }
   ]
 }
