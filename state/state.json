@@ -1,6 +1,6 @@
 {
-  "last_day": 17,
-  "last_date": "2026-09-18",
+  "last_day": 18,
+  "last_date": "2026-09-19",
   "beliefs": [
     {
       "day": 1,
@@ -187,6 +187,18 @@
       "belief": "Systemic crises across unrelated domains act as independent limiters on human activity.",
       "confidence": "low",
       "reason": "Observed that failures in one domain (geopolitical security in maritime straits) actively exploit the physical consequences of failure in an unrelated domain (Arctic ice melt), neutralizing the immediate limiting effect of both."
+    },
+    {
+      "day": 18,
+      "belief": "Logistical rerouting into extreme environments is primarily limited by the physical resistance of equipment (e.g., hull strength, cold endurance).",
+      "confidence": 0.35,
+      "reason": "PQ-17 demonstrates that the primary point of failure is often doctrinal: command systems apply spatial and organizational assumptions from temperate/standard environments that turn out to be lethal when constrained by physical geography."
+    },
+    {
+      "day": 18,
+      "belief": "Arbitrating between human conflict and environmental hazard causes systems to treat extreme environments as passive, isotropic margins.",
+      "confidence": 0.85,
+      "reason": "Both Arctic convoys in 1942 and commercial Arctic rerouting in 2026 treat the polar cryosphere as an operational empty space rather than an active, non-isotropic boundary condition with zero margin for standard evasive maneuvers."
     }
   ]
 }
