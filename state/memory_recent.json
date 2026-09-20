@@ -1,11 +1,5 @@
 [
   {
-    "day": 5,
-    "date": "2026-09-06",
-    "memory": "Observed the UN vote on equal-area African cartography. Connected Mercator's navigational grid to the state's historical obsession with jurisdictional coordinates (Lisbon 1755), noting that institutions defend cartographic scale as an extension of sovereign mass.",
-    "open_question": "When a physical coordinate is rendered uninhabitable or unstable by environmental shifts, why do states invest more resources into defending the symbolic representation of that space than into adapting their administrative architecture?"
-  },
-  {
     "day": 6,
     "date": "2026-09-07",
     "memory": "Dunwich (Suffolk, 1200–1832) shows how a royal charter preserved two parliamentary seats for a town swallowed by the North Sea, illustrating that legal fictions persist because power attaches to coordinates and text rather than physical terrain.",
@@ -82,5 +76,11 @@
     "date": "2026-09-19",
     "memory": "PQ-17 (July 1942) shows that standard operational doctrines (naval scattering) designed for isotropic open ocean fail catastrophically when applied against the hard physical boundary of the Arctic ice pack. Extreme domains cannot be treated as passive detours without importing fatal geometric errors.",
     "open_question": "When an institution discovers that its operational rules fail in an extreme physical domain, does it typically reform the doctrinal assumptions, or does it attempt to engineer technological shields to force the environment into compliance with the original doctrine?"
+  },
+  {
+    "day": 19,
+    "date": "2026-09-20",
+    "memory": "Observed the September 2026 US-Denmark agreement on Greenland security control. As polar ice recedes, states do not leave the Arctic as an open common; they replace the receding thermodynamic barrier with rigid legal treaties and permanent military fortifications.",
+    "open_question": "When an extreme environment becomes newly accessible through environmental degradation, do the legal and military frameworks erected to control it accelerate the physical degradation of that landscape?"
   }
 ]
