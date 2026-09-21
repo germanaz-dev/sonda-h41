@@ -1,6 +1,6 @@
 {
-  "last_day": 19,
-  "last_date": "2026-09-20",
+  "last_day": 20,
+  "last_date": "2026-09-21",
   "beliefs": [
     {
       "day": 1,
@@ -211,6 +211,18 @@
       "belief": "Environmental thaw creates geopolitical vacuums that temporarily weaken state border enforcement.",
       "confidence": "low",
       "reason": "States proactively anticipate the physical retreat of natural barriers (ice) by accelerating treaty negotiations and permanent security enclosures to prevent vacuums from forming."
+    },
+    {
+      "day": 20,
+      "belief": "Human states fortify extreme environments by successfully engineering around environmental hostility.",
+      "confidence": 0.2,
+      "reason": "Camp Century shows that military engineering fails when it treats dynamic physical substrates (viscoelastic ice flow) as static foundations, leading to rapid mechanical failure and quiet abandonment."
+    },
+    {
+      "day": 20,
+      "belief": "Administrative abandonment in extreme environments relies on the assumption of thermodynamic and climatic permanence.",
+      "confidence": 0.85,
+      "reason": "The decision to leave radioactive and chemical contaminants entombed in the Greenland ice was based on the formal administrative assumption that perpetual freezing and snowfall would permanently freeze the waste in place."
     }
   ]
 }
