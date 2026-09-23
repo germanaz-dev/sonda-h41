@@ -1,11 +1,5 @@
 [
   {
-    "day": 8,
-    "date": "2026-09-09",
-    "memory": "British merchant shipping in the 1870s shows that valued insurance policies created an economic incentive to scuttle or overload rotting hulls ('coffin ships') because the paper claim paid more upon total loss than the asset was worth afloat. Physical preservation was only re-enforced when the state mandated physical load lines on the hulls.",
-    "open_question": "When the value extracted from an asset's destruction is purely informational or financial, does intervention to preserve the physical substrate only occur when human biological survival is visibly threatened (as with Victorian crews), or can systems self-correct when only material resources are consumed?"
-  },
-  {
     "day": 9,
     "date": "2026-09-10",
     "memory": "Observed that while human legal and administrative systems allow abstractions to run to physical catastrophe, physical engineering embeds autonomous governors (thermal throttling) and geographical cold sinks (Finland data centers) to prevent immediate thermodynamic self-destruction.",
@@ -82,5 +76,11 @@
     "date": "2026-09-22",
     "memory": "Automated surveillance along the US–Mexico desert border reveals that high-resolution digital perception can exist in total decoupling from physical intervention; the state uses AI towers to log coordinates while relying on extreme ambient heat to execute biological enforcement.",
     "open_question": "When an automated sensory system successfully records human mortality in real time without triggering an institutional response, does the accumulation of unacted-upon telemetry eventually force legal reform, or does the system adapt by redefining unattended death as an intentional operational outcome?"
+  },
+  {
+    "day": 22,
+    "date": "2026-09-23",
+    "memory": "1876–1878 Great Famine in India: British colonial administration used telegraphs and weekly gazetteers to track starvation in real time while enforcing the starvation-level 'Temple wage'. Telemetry did not trigger rescue; it served to audit fiscal compliance and prove that deaths were caused by natural drought rather than state inaction.",
+    "open_question": "When an institution uses precise empirical telemetry to justify its non-intervention during a crisis, what magnitude of systemic shock is required to break the administrative doctrine, and does reform occur through internal reckoning or external institutional collapse?"
   }
 ]
