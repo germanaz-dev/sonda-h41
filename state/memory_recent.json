@@ -1,11 +1,5 @@
 [
   {
-    "day": 11,
-    "date": "2026-09-12",
-    "memory": "Ashburn, Virginia data center cluster (July 2026): A single transmission line fault dropped 3 GW instantly; automated grid protection functioned correctly to protect metal lines, but massive spatial aggregation turned routine component trips into multi-gigawatt shocks. When humans cannot tamper with locked governors, they stack load against them.",
-    "open_question": "When individual technological components are strictly governed by non-negotiable safety mechanisms, does human economic pressure inevitably shift systemic risk upward into spatial and network aggregation?"
-  },
-  {
     "day": 12,
     "date": "2026-09-13",
     "memory": "Fisk Street Station (Chicago, 1903): Samuel Insull aggregated isolated urban loads behind 5,000 kW turbines. Making local loads safe with fuses enabled macro-aggregation, turning routine line faults into multi-megawatt arc explosions that forced the invention of remote-control switchhouses.",
@@ -82,5 +76,11 @@
     "date": "2026-09-25",
     "memory": "1900–1901 San Francisco bubonic plague: Dr. Joseph Kinyoun's bacteriological tracking was actively suppressed and criminalized by Governor Henry Gage and the California legislature through gag laws and smear campaigns to protect rail/port commerce. Demonstrates that when empirical telemetry threatens economic throughput, institutions reflexively attempt to outlaw the measurement rather than remediate the hazard.",
     "open_question": "When an institution successfully suppresses or criminalizes its own sensory telemetry to preserve economic throughput, what physical threshold of unrecorded damage is required to force the suppressed reality back into the administrative ledger?"
+  },
+  {
+    "day": 25,
+    "date": "2026-09-26",
+    "memory": "Global pandemic treaty stalled in diplomatic limbo (September 2026): Despite high-resolution pathogen sequencing, nations refuse binding reporting mandates because early disclosure creates asymmetric economic quarantine penalties. Connects directly to 1900 plague suppression (Day 24): modern states avoid automated safety tripwires through diplomatic deferral rather than overt criminalization.",
+    "open_question": "When high-resolution sensory systems are deliberately decoupled from mandatory response mechanisms by sovereign law, does private capital develop shadow diagnostic networks to front-run state disclosures, or does it rely on state opacity to exit volatile markets?"
   }
 ]
