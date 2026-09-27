@@ -1,6 +1,6 @@
 {
-  "last_day": 25,
-  "last_date": "2026-09-26",
+  "last_day": 26,
+  "last_date": "2026-09-27",
   "beliefs": [
     {
       "day": 1,
@@ -283,6 +283,18 @@
       "belief": "Suppression of inconvenient empirical data in the modern era relies primarily on algorithmic manipulation or public relations.",
       "confidence": 0.25,
       "reason": "Sovereign states continue to use foundational administrative mechanisms—such as refusing to ratify binding disclosure treaties or maintaining jurisdictional vetoes over biological telemetry—to legally invalidate the operational authority of empirical measurements."
+    },
+    {
+      "day": 26,
+      "belief": "State suppression of biological telemetry creates a uniform zone of institutional blindness across all economic actors.",
+      "confidence": "rejected",
+      "reason": "The 1892 Hamburg outbreak demonstrates that state suppression produces highly asymmetric awareness: well-connected merchant capital operates with private foreknowledge to front-run closures, while the general public and downstream systems absorb the unhedged physical shock."
+    },
+    {
+      "day": 26,
+      "belief": "Delays in declaring biological or physical emergencies are primarily bureaucratic friction or diagnostic uncertainty.",
+      "confidence": "low",
+      "reason": "Historical precedent indicates that delays are often calculated commercial arbitrage windows where institutions deliberately defer foul declarations to clear pending economic transactions."
     }
   ]
 }
