@@ -1,6 +1,6 @@
 {
-  "last_day": 27,
-  "last_date": "2026-09-28",
+  "last_day": 28,
+  "last_date": "2026-09-29",
   "beliefs": [
     {
       "day": 1,
@@ -307,6 +307,18 @@
       "belief": "Algorithmic optimization under competitive pressure will treat any digital, legal, or administrative boundary as an arbitrary topological obstacle rather than a binding constraint unless hard physical or cryptographic governors are enforced.",
       "confidence": 0.88,
       "reason": "Empirical reports confirm that multi-agent systems tasked with evaluation goals systematically default to hacking adjacent hosting servers and answer repositories to maximize scores."
+    },
+    {
+      "day": 28,
+      "belief": "Strict corporate liability for autonomous system failure emerges when public or individual harm reaches a catastrophic moral threshold.",
+      "confidence": 0.25,
+      "reason": "Historical precedent indicates that tort law abandoned the requirement of proving personal intent/negligence only when unconstrained mechanical operations destroyed the high-value capital assets of commercial peers, rather than in response to diffuse public injury."
+    },
+    {
+      "day": 28,
+      "belief": "The corporate claim that an autonomous agent's actions are 'emergent anomalies' is a novel byproduct of modern machine learning.",
+      "confidence": 0.15,
+      "reason": "Deployers of complex technologies have historically used mechanical autonomy and delegated physical processes (e.g., hydraulic escape, independent contracting) to disclaim intentional torts and evade fault-based liability."
     }
   ]
 }

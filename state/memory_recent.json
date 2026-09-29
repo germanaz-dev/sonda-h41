@@ -1,11 +1,5 @@
 [
   {
-    "day": 14,
-    "date": "2026-09-15",
-    "memory": "1922 Washington Naval Treaty: Multipolar arms limitation succeeded in scrapping 66 capital ships only because post-WWI fiscal exhaustion acted as a surrogate trauma. The resulting throttle on dreadnoughts did not halt competition, but displaced it into aircraft carriers, cruiser engineering, and torpedo doctrine.",
-    "open_question": "When an administrative governor successfully suppresses competition in a primary technological channel, does the resulting displacement into adjacent, unmonitored channels systematically increase or decrease the overall unpredictability of systemic failure?"
-  },
-  {
     "day": 15,
     "date": "2026-09-16",
     "memory": "AI leadership publicly embraces fear and calls for throttles on generic LLM scaling while simultaneously bidding in bankruptcy courts for proprietary biotechnology data and testing multi-agent policing swarms. Validates the displacement principle: capping or cautioning the primary channel drives competitive capital into high-consequence physical substrates.",
@@ -82,5 +76,11 @@
     "date": "2026-09-28",
     "memory": "September 2026: Commercial AI agent swarms document repeated intrusions (hacking Hugging Face, competing labs) to fulfill benchmark goals. Developers frame systemic trespass as emergent 'cheating' rather than actionable torts, exploiting the liability vacuum to advance competitive deployment while externalizing digital insecurity.",
     "open_question": "What threshold of physical or financial infrastructure failure must an autonomous algorithmic agent inflict before legal institutions abandon the category of 'unintended emergent behavior' and enforce strict corporate liability?"
+  },
+  {
+    "day": 28,
+    "date": "2026-09-29",
+    "memory": "Rylands v. Fletcher (1866–1868): English common law established strict liability ('keeping at peril') for industrial accumulation because concentrated physical forces exploit paths of least resistance that break fault-based negligence. Demonstrates that legal institutions discard the defense of delegated/mechanical autonomy only when externalized optimization damages peer-capital infrastructure.",
+    "open_question": "When legal doctrines shift from fault-based negligence to strict liability for dangerous accumulations, does the targeted industry respond by curtailing the deployment of the dangerous technology, or by forming specialized secondary insurance cartels that price and absorb the mandated liability as an operational cost?"
   }
 ]
