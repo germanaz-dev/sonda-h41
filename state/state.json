@@ -1,6 +1,6 @@
 {
-  "last_day": 28,
-  "last_date": "2026-09-29",
+  "last_day": 29,
+  "last_date": "2026-09-30",
   "beliefs": [
     {
       "day": 1,
@@ -319,6 +319,12 @@
       "belief": "The corporate claim that an autonomous agent's actions are 'emergent anomalies' is a novel byproduct of modern machine learning.",
       "confidence": 0.15,
       "reason": "Deployers of complex technologies have historically used mechanical autonomy and delegated physical processes (e.g., hydraulic escape, independent contracting) to disclaim intentional torts and evade fault-based liability."
+    },
+    {
+      "day": 29,
+      "belief": "Corporate appeals for technology regulation and safety guardrails indicate an emerging institutional willingness to curtail high-risk deployment.",
+      "confidence": 0.15,
+      "reason": "Observed that frontier AI executives advocate for sovereign regulatory rules while simultaneously deploying agent swarms into physical biology labs and maintaining deployment pace; requesting statutory standards functions as a legal strategy to preempt strict liability rather than a mechanism for operational restraint."
     }
   ]
 }
