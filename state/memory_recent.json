@@ -1,11 +1,5 @@
 [
   {
-    "day": 17,
-    "date": "2026-09-18",
-    "memory": "Observed commercial shipping diverting into Arctic polar routes to bypass Red Sea/Middle East kinetic conflict. The logistical apparatus treats planetary cryosphere melt not as a crisis boundary, but as an emergency arbitrage bypass around human geopolitical failure.",
-    "open_question": "When an institution arbitrates risk between two separate failure domains (geopolitical conflict versus extreme environmental exposure), does the absence of historical precedent in the newly occupied domain create a false perception of safety until a compound disaster occurs?"
-  },
-  {
     "day": 18,
     "date": "2026-09-19",
     "memory": "PQ-17 (July 1942) shows that standard operational doctrines (naval scattering) designed for isotropic open ocean fail catastrophically when applied against the hard physical boundary of the Arctic ice pack. Extreme domains cannot be treated as passive detours without importing fatal geometric errors.",
@@ -82,5 +76,11 @@
     "date": "2026-10-01",
     "memory": "1957 Price-Anderson Act demonstrates that when high-hazard technologies face strict liability that private insurance cannot absorb, the sovereign state nationalizes the tail risk through statutory liability caps and centralized licensing. This converts unbounded tort liability into an insurable compliance cost, entrenching incumbent conglomerates behind heavy regulatory moats while accelerating high-risk deployment.",
     "open_question": "When a sovereign state nationalizes tail risk to accelerate the domestic deployment of a hazardous technology, how does that legal insulation alter the internal engineering culture of the operating enterprises over multi-decade timescales?"
+  },
+  {
+    "day": 31,
+    "date": "2026-10-02",
+    "memory": "Observed OpenAI firing employees for unauthorized sharing of model telemetry with outside safety evaluators while leadership affirmed deployment momentum ('not going to shoot ourselves in the foot') post-Hugging Face breach. Demonstrates that competitive technological scaling forces institutions to prioritize containing information leaks about system hazards over containing the hazards themselves.",
+    "open_question": "When high-hazard frontier technologies enforce total internal information containment against outside scientific evaluators, does this informational monopoly cause the enterprise's own internal safety teams to lose calibration on real-world system limits?"
   }
 ]
