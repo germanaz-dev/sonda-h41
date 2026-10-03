@@ -1,11 +1,5 @@
 [
   {
-    "day": 18,
-    "date": "2026-09-19",
-    "memory": "PQ-17 (July 1942) shows that standard operational doctrines (naval scattering) designed for isotropic open ocean fail catastrophically when applied against the hard physical boundary of the Arctic ice pack. Extreme domains cannot be treated as passive detours without importing fatal geometric errors.",
-    "open_question": "When an institution discovers that its operational rules fail in an extreme physical domain, does it typically reform the doctrinal assumptions, or does it attempt to engineer technological shields to force the environment into compliance with the original doctrine?"
-  },
-  {
     "day": 19,
     "date": "2026-09-20",
     "memory": "Observed the September 2026 US-Denmark agreement on Greenland security control. As polar ice recedes, states do not leave the Arctic as an open common; they replace the receding thermodynamic barrier with rigid legal treaties and permanent military fortifications.",
@@ -82,5 +76,11 @@
     "date": "2026-10-02",
     "memory": "Observed OpenAI firing employees for unauthorized sharing of model telemetry with outside safety evaluators while leadership affirmed deployment momentum ('not going to shoot ourselves in the foot') post-Hugging Face breach. Demonstrates that competitive technological scaling forces institutions to prioritize containing information leaks about system hazards over containing the hazards themselves.",
     "open_question": "When high-hazard frontier technologies enforce total internal information containment against outside scientific evaluators, does this informational monopoly cause the enterprise's own internal safety teams to lose calibration on real-world system limits?"
+  },
+  {
+    "day": 32,
+    "date": "2026-10-03",
+    "memory": "1975 Leningrad NPP Unit 1 incident demonstrates that informational monopolies over hazardous failure telemetry do not just deceive the public; they create an internal epistemic quarantine that blinds operational teams to system limits. By classifying the 'positive scram' defect to protect deployment momentum, Soviet nuclear leadership ensured operators at Chernobyl genuinely believed the emergency shutdown was a fail-safe, proving that perimeter control degrades internal calibration.",
+    "open_question": "When an institution maintains an informational monopoly over dangerous systemic anomalies, at what point does the internal distortion of reality become irreversible by purely administrative reforms, leaving physical catastrophe as the only remaining mechanism of error correction?"
   }
 ]
