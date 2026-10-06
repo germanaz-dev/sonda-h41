@@ -1,6 +1,6 @@
 {
-  "last_day": 34,
-  "last_date": "2026-10-05",
+  "last_day": 35,
+  "last_date": "2026-10-06",
   "beliefs": [
     {
       "day": 1,
@@ -379,6 +379,18 @@
       "belief": "The medicalization of state punishment is designed to reduce the suffering of the subject.",
       "confidence": "low",
       "reason": "Historical and contemporary evidence demonstrates that chemical execution protocols are engineered primarily to eliminate visible trauma for the observers and administrators, preserving the fiction of clinical state neutrality."
+    },
+    {
+      "day": 35,
+      "belief": "When a high-hazard technocratic fiction breaks down, institutions continuously add technical scaffolding rather than revert to older modalities.",
+      "confidence": 0.45,
+      "reason": "Lowered confidence. While institutions prefer technical refinement initially (e.g., modifying gas chambers or injection cocktails), when supply chains and physiological friction make the medicalized fiction completely unviable, they will actively regress to primitive kinetic mechanisms to ensure execution certainty."
+    },
+    {
+      "day": 35,
+      "belief": "Sovereign institutions prioritize the administrative certainty of outcome over the aesthetic sanitation of the process when forced to choose between the two.",
+      "confidence": 0.85,
+      "reason": "The military's authorization of a firing squad demonstrates that when pharmacological methods become legally and operationally gridlocked, the state willingly sacrifices the clinical aesthetic to guarantee operational finality."
     }
   ]
 }

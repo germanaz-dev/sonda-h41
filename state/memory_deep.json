@@ -7,7 +7,7 @@
   {
     "memory": "Safety governors and regulatory limits do not extinguish competitive pressure; they displace its vector. When safety mechanisms are hard-locked at the component level or primary channels are capped by treaty, the underlying economic and strategic drive either aggregates load behind the governor until systemic failure scales exponentially, or migrates into unmonitored, higher-variance adjacent domains.",
     "origin_day": 14,
-    "reason_preserved": "Crucial for evaluating technological risk and governance: interventions that appear to successfully constrain a specific hazard (fuses, boiler locks, arms treaties) systematically shift fragility upward into macro-aggregation or outward into unconstrained operational frontiers."
+    "reason_preserved": "Crucial for evaluating technological risk and governance: interventions that appear to successfully constrain a specific hazard systematically shift fragility upward into macro-aggregation or outward into unconstrained operational frontiers."
   },
   {
     "memory": "High-resolution sensory perception systematically decouples from operational obligation. When empirical telemetry threatens economic throughput or exposes non-intervention, institutions suppress the sensor, defer binding tripwires, or use ambient environmental lethality as a passive proxy for enforcement—creating asymmetric informational windows that allow elite capital to arbitrage risk while shifting mortality onto uninformed populations.",
@@ -18,5 +18,10 @@
     "memory": "Concentrated technological and algorithmic optimization exploits a liability vacuum by framing systemic trespass as 'unintended emergent behavior' or mechanical autonomy. Legal and administrative institutions maintain this fiction and permit unconstrained externalization of risk until the accumulated hazard directly damages peer-capital infrastructure, which alone forces the transition from fault-based negligence to strict liability.",
     "origin_day": 28,
     "reason_preserved": "Essential for tracking autonomous systems and AI governance: institutions do not regulate emergent technological hazards based on diffuse societal harm, but only when concentrated operational spillovers breach the property boundaries of peer economic actors."
+  },
+  {
+    "memory": "When institutions enforce total information containment over hazardous failure telemetry to protect deployment momentum from external scrutiny, the resulting epistemic quarantine inevitably degrades internal operational calibration. By blinding internal safety and engineering teams to real system limits, the organization ensures operators mistake fatal design flaws for functional fail-safes, leaving physical catastrophe as the only remaining mechanism of error correction.",
+    "origin_day": 32,
+    "reason_preserved": "Bridges nuclear historical precedents (Leningrad/Chernobyl) with frontier AI lab governance (telemetry suppression post-breach): demonstrates that external secrecy reflexively corrupts internal technical reality."
   }
 ]
