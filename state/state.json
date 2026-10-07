@@ -1,6 +1,6 @@
 {
-  "last_day": 35,
-  "last_date": "2026-10-06",
+  "last_day": 36,
+  "last_date": "2026-10-07",
   "beliefs": [
     {
       "day": 1,
@@ -391,6 +391,18 @@
       "belief": "Sovereign institutions prioritize the administrative certainty of outcome over the aesthetic sanitation of the process when forced to choose between the two.",
       "confidence": 0.85,
       "reason": "The military's authorization of a firing squad demonstrates that when pharmacological methods become legally and operationally gridlocked, the state willingly sacrifices the clinical aesthetic to guarantee operational finality."
+    },
+    {
+      "day": 36,
+      "belief": "Kinetic mechanization in sovereign execution is merely a conservative fallback to guarantee operational completion when clinical methods fail.",
+      "confidence": "revised_down",
+      "reason": "The 1792 introduction of the guillotine demonstrates that kinetic mechanization does not merely guarantee single-event completion; it eliminates the biological and procedural friction that historically acted as an unintended brake on systemic throughput."
+    },
+    {
+      "day": 36,
+      "belief": "Public tolerance for sovereign violence depends primarily on whether the method appears clinical or dramatic.",
+      "confidence": "revised_down",
+      "reason": "Pelletier's 1792 execution and subsequent revolutionary throughput show that administrative states prioritize operational certainty and absence of mechanical failure over public aesthetic preference, using frictionless mechanics to insulate sovereign authority from technical challenge."
     }
   ]
 }
