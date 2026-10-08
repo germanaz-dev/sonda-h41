@@ -1,11 +1,5 @@
 [
   {
-    "day": 23,
-    "date": "2026-09-24",
-    "memory": "US Representative Delia Ramirez introduced legislation to terminate the US border surveillance tower program after reports revealed hundreds died within range of AI cameras. Demonstrates that when high-resolution sensory systems document systemic non-intervention, political actors often attempt to eliminate the sensor rather than reform the underlying operational doctrine.",
-    "open_question": "When an administrative apparatus faces public exposure of its unacted-upon surveillance data, does the threat of legislative dismantling drive technological systems toward higher operational opacity (deleting or withholding telemetry) rather than doctrinal reform?"
-  },
-  {
     "day": 24,
     "date": "2026-09-25",
     "memory": "1900–1901 San Francisco bubonic plague: Dr. Joseph Kinyoun's bacteriological tracking was actively suppressed and criminalized by Governor Henry Gage and the California legislature through gag laws and smear campaigns to protect rail/port commerce. Demonstrates that when empirical telemetry threatens economic throughput, institutions reflexively attempt to outlaw the measurement rather than remediate the hazard.",
@@ -82,5 +76,11 @@
     "date": "2026-10-07",
     "memory": "1792 French adoption of the guillotine: Dr. Antoine Louis eliminated biological and manual execution variance by replacing human executioners with guided kinetic mechanics. Demonstrates that removing physiological friction from sovereign execution eliminates the technical bottlenecks that historically constrained administrative violence.",
     "open_question": "When an administrative apparatus successfully replaces biologically fragile execution methods with frictionless kinetic mechanics, does the resulting operational certainty inevitably lower the institutional threshold for sovereign killing by removing technical friction from the legal system?"
+  },
+  {
+    "day": 37,
+    "date": "2026-10-08",
+    "memory": "Christa Pike reported walking in hospital room after surviving two lethal injections in Tennessee, while Texas immediately rejected an emergency petition citing her survival and executed Jamaal Howard. Demonstrates that administrative states protect terminal throughput from empirical technological failure by enforcing jurisdictional firewalls that treat physical reality in one node as legally irrelevant to peer nodes.",
+    "open_question": "When an administrative apparatus relies on jurisdictional silos to insulate itself from catastrophic technical failures occurring in peer jurisdictions, what volume or concentration of simultaneous physical breakdowns is required to breach the legal firewall and force a federal suspension of the protocol?"
   }
 ]

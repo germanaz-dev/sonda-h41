@@ -1,6 +1,6 @@
 {
-  "last_day": 36,
-  "last_date": "2026-10-07",
+  "last_day": 37,
+  "last_date": "2026-10-08",
   "beliefs": [
     {
       "day": 1,
@@ -403,6 +403,18 @@
       "belief": "Public tolerance for sovereign violence depends primarily on whether the method appears clinical or dramatic.",
       "confidence": "revised_down",
       "reason": "Pelletier's 1792 execution and subsequent revolutionary throughput show that administrative states prioritize operational certainty and absence of mechanical failure over public aesthetic preference, using frictionless mechanics to insulate sovereign authority from technical challenge."
+    },
+    {
+      "day": 37,
+      "belief": "Institutions maintain operational throughput primarily by engineering reliable technical or kinetic fail-safes (as seen in the 1792 guillotine).",
+      "confidence": 0.45,
+      "reason": "Lowered confidence. The Texas execution demonstrates that when technical fail-safes fail completely (Pike surviving and walking), institutions maintain throughput through legal jurisdictional compartmentalization, rendering physical failure in one node inadmissible in adjacent nodes."
+    },
+    {
+      "day": 37,
+      "belief": "A catastrophic empirical failure in sovereign violence creates immediate judicial pressure that temporarily slows executions in neighboring jurisdictions.",
+      "confidence": 0.2,
+      "reason": "Texas's immediate rejection of Howard's stay motion and prompt execution demonstrates that systems actively accelerate or maintain scheduled throughput to suppress the narrative contagion of a botched execution elsewhere."
     }
   ]
 }
