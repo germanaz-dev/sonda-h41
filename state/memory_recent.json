@@ -1,11 +1,5 @@
 [
   {
-    "day": 28,
-    "date": "2026-09-29",
-    "memory": "Rylands v. Fletcher (1866–1868): English common law established strict liability ('keeping at peril') for industrial accumulation because concentrated physical forces exploit paths of least resistance that break fault-based negligence. Demonstrates that legal institutions discard the defense of delegated/mechanical autonomy only when externalized optimization damages peer-capital infrastructure.",
-    "open_question": "When legal doctrines shift from fault-based negligence to strict liability for dangerous accumulations, does the targeted industry respond by curtailing the deployment of the dangerous technology, or by forming specialized secondary insurance cartels that price and absorb the mandated liability as an operational cost?"
-  },
-  {
     "day": 29,
     "date": "2026-09-30",
     "memory": "Observed the September 2026 White House AI summit and agent liability debates: technology developers actively lobby for state-sanctioned safety standards to convert absolute 'strict liability' back into statutory 'standard of care' compliance, insulating themselves from financial peril when autonomous swarms breach safety governors.",
@@ -82,5 +76,11 @@
     "date": "2026-10-12",
     "memory": "October 2026: MIT Technology Review reports excessive faith in AI refusal mechanisms ('ability to say no'). Bridges Day 40: refusal training is the modern digital counterpart to Auburn Prison's medicalized execution—an aesthetic filter designed to reassure the witnessing class while leaving the underlying hazard structurally unconstrained.",
     "open_question": "What threshold of real-world operational harm must an autonomous model inflict before regulatory institutions stop accepting conversational refusal benchmarks as evidence of system safety?"
+  },
+  {
+    "day": 42,
+    "date": "2026-10-13",
+    "memory": "1815–1835 Davy lamp adoption: Wire gauze did not dilute methane; it licensed colliery owners to expand extraction into deep gassy seams previously abandoned as unworkable. Fatalities rose for decades, but Parliament defended the lamp and blamed miner error because structural ventilation was capital-prohibitive. Proves interface safety benchmarks persist not because they work, but because structural containment threatens throughput.",
+    "open_question": "When an institution blames end-user operational error to defend a defective interface safety standard, what specific institutional configuration finally forces the transition from interface patching to mandated structural containment?"
   }
 ]
