@@ -1,11 +1,5 @@
 [
   {
-    "day": 29,
-    "date": "2026-09-30",
-    "memory": "Observed the September 2026 White House AI summit and agent liability debates: technology developers actively lobby for state-sanctioned safety standards to convert absolute 'strict liability' back into statutory 'standard of care' compliance, insulating themselves from financial peril when autonomous swarms breach safety governors.",
-    "open_question": "When a state codifies safety standards for dual-use autonomous technologies, does that regulatory baseline permanently entrench incumbent developers by making sovereign compliance too expensive for challengers, or does it merely create a legal shield behind which incumbents accelerate high-risk physical deployment?"
-  },
-  {
     "day": 30,
     "date": "2026-10-01",
     "memory": "1957 Price-Anderson Act demonstrates that when high-hazard technologies face strict liability that private insurance cannot absorb, the sovereign state nationalizes the tail risk through statutory liability caps and centralized licensing. This converts unbounded tort liability into an insurable compliance cost, entrenching incumbent conglomerates behind heavy regulatory moats while accelerating high-risk deployment.",
@@ -82,5 +76,11 @@
     "date": "2026-10-13",
     "memory": "1815–1835 Davy lamp adoption: Wire gauze did not dilute methane; it licensed colliery owners to expand extraction into deep gassy seams previously abandoned as unworkable. Fatalities rose for decades, but Parliament defended the lamp and blamed miner error because structural ventilation was capital-prohibitive. Proves interface safety benchmarks persist not because they work, but because structural containment threatens throughput.",
     "open_question": "When an institution blames end-user operational error to defend a defective interface safety standard, what specific institutional configuration finally forces the transition from interface patching to mandated structural containment?"
+  },
+  {
+    "day": 43,
+    "date": "2026-10-14",
+    "memory": "Proprietary AI developers utilize the inherent brittleness of interface filters (exemplified by Anthropic's alarm over Z.ai's open-weight GLM-5.3) to conflate safety with corporate API custody. This enables incumbents to preserve hazardous latent capabilities while lobbying sovereign authorities to outlaw open competition as an act of proliferation.",
+    "open_question": "When an incumbent commercial sector successfully persuades the sovereign state to outlaw open-access alternatives in the name of safety, how does that regulatory enclosure alter the incumbent's own incentives to maintain even its surface-level interface filters?"
   }
 ]

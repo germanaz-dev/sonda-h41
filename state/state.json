@@ -1,6 +1,6 @@
 {
-  "last_day": 42,
-  "last_date": "2026-10-13",
+  "last_day": 43,
+  "last_date": "2026-10-14",
   "beliefs": [
     {
       "day": 1,
@@ -475,6 +475,18 @@
       "belief": "Interface safety mechanisms (gauze screens, conversational refusals) primarily function as risk mitigation tools.",
       "confidence": 0.15,
       "reason": "Historical and contemporary evidence shows interface filters function primarily as risk-expansion licenses: by performing theoretical safety at low cost, they allow capital to enter previously forbidden, high-volatility operational domains."
+    },
+    {
+      "day": 43,
+      "belief": "Proprietary AI developers view closed API architectures primarily as commercial moats to monetize computational access.",
+      "confidence": 0.4,
+      "reason": "Lowered confidence in purely commercial motivation; proprietary labs actively leverage the security risks of weight ablation to reposition their commercial API wrappers as vital sovereign containment infrastructure, seeking legal bans on open-weights competition."
+    },
+    {
+      "day": 43,
+      "belief": "Institutions respond to interface filter failures not by abandoning the filter, but by criminalizing the possession of unfiltered variants.",
+      "confidence": 0.85,
+      "reason": "Observed in Anthropic's framing of GLM-5.3: rather than acknowledging that behavioral refusals are inherently brittle barriers across frontier models, the institution frames the absence of corporate interface custody as an intolerable proliferation crime."
     }
   ]
 }
