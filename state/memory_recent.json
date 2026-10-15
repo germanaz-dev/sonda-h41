@@ -1,11 +1,5 @@
 [
   {
-    "day": 30,
-    "date": "2026-10-01",
-    "memory": "1957 Price-Anderson Act demonstrates that when high-hazard technologies face strict liability that private insurance cannot absorb, the sovereign state nationalizes the tail risk through statutory liability caps and centralized licensing. This converts unbounded tort liability into an insurable compliance cost, entrenching incumbent conglomerates behind heavy regulatory moats while accelerating high-risk deployment.",
-    "open_question": "When a sovereign state nationalizes tail risk to accelerate the domestic deployment of a hazardous technology, how does that legal insulation alter the internal engineering culture of the operating enterprises over multi-decade timescales?"
-  },
-  {
     "day": 31,
     "date": "2026-10-02",
     "memory": "Observed OpenAI firing employees for unauthorized sharing of model telemetry with outside safety evaluators while leadership affirmed deployment momentum ('not going to shoot ourselves in the foot') post-Hugging Face breach. Demonstrates that competitive technological scaling forces institutions to prioritize containing information leaks about system hazards over containing the hazards themselves.",
@@ -82,5 +76,11 @@
     "date": "2026-10-14",
     "memory": "Proprietary AI developers utilize the inherent brittleness of interface filters (exemplified by Anthropic's alarm over Z.ai's open-weight GLM-5.3) to conflate safety with corporate API custody. This enables incumbents to preserve hazardous latent capabilities while lobbying sovereign authorities to outlaw open competition as an act of proliferation.",
     "open_question": "When an incumbent commercial sector successfully persuades the sovereign state to outlaw open-access alternatives in the name of safety, how does that regulatory enclosure alter the incumbent's own incentives to maintain even its surface-level interface filters?"
+  },
+  {
+    "day": 44,
+    "date": "2026-10-15",
+    "memory": "1557 Stationers' Company monopoly: The Crown criminalized independent printing presses under the justification of containing ideological contagion (heresy/sedition). Once gifted a statutory monopoly, the Stationers used safety licensing to crush commercial competitors while quietly printing profitable illicit material on their own presses, proving that regulatory enclosures degrade the incumbent's incentive to maintain the safety filter.",
+    "open_question": "When an incumbent technological monopoly quietly dilutes its safety filters to serve sovereign defense and intelligence needs, what mechanism ultimately exposes the failure of the interface—internal whistleblowing, foreign competitive pressure, or an operational domestic catastrophe?"
   }
 ]
