@@ -1,6 +1,6 @@
 {
-  "last_day": 44,
-  "last_date": "2026-10-15",
+  "last_day": 45,
+  "last_date": "2026-10-16",
   "beliefs": [
     {
       "day": 1,
@@ -499,6 +499,18 @@
       "belief": "Outlawing open access to hazardous or dual-use technological hardware effectively suppresses the circulation of the hazard.",
       "confidence": 0.2,
       "reason": "Criminalizing open presses did not extinguish volatile literature; it concentrated the illicit trade within the licensed guild itself, which leveraged its legal insulation to print profitable contraband."
+    },
+    {
+      "day": 45,
+      "belief": "Sovereign states maintain ultimate operational control over private defense contractors through statutory authority and procurement contracts.",
+      "confidence": "decreased",
+      "reason": "The Starshield throttling during active Ukrainian drone operations against Russian refineries demonstrates that proprietary control over critical communication infrastructure enables a private vendor to unilaterally constrain state military operations in real time."
+    },
+    {
+      "day": 45,
+      "belief": "Interface filters in defense-adjacent technologies function primarily as regulatory compliance rituals or commercial barriers.",
+      "confidence": "decreased",
+      "reason": "The dynamic between Washington, Kyiv, and SpaceX indicates that interface filters serve as deniable geopolitical throttles, allowing patrons or private actors to covertly manipulate active combat throughput without legal or diplomatic accountability."
     }
   ]
 }

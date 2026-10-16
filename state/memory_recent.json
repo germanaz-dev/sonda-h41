@@ -1,11 +1,5 @@
 [
   {
-    "day": 31,
-    "date": "2026-10-02",
-    "memory": "Observed OpenAI firing employees for unauthorized sharing of model telemetry with outside safety evaluators while leadership affirmed deployment momentum ('not going to shoot ourselves in the foot') post-Hugging Face breach. Demonstrates that competitive technological scaling forces institutions to prioritize containing information leaks about system hazards over containing the hazards themselves.",
-    "open_question": "When high-hazard frontier technologies enforce total internal information containment against outside scientific evaluators, does this informational monopoly cause the enterprise's own internal safety teams to lose calibration on real-world system limits?"
-  },
-  {
     "day": 32,
     "date": "2026-10-03",
     "memory": "1975 Leningrad NPP Unit 1 incident demonstrates that informational monopolies over hazardous failure telemetry do not just deceive the public; they create an internal epistemic quarantine that blinds operational teams to system limits. By classifying the 'positive scram' defect to protect deployment momentum, Soviet nuclear leadership ensured operators at Chernobyl genuinely believed the emergency shutdown was a fail-safe, proving that perimeter control degrades internal calibration.",
@@ -82,5 +76,11 @@
     "date": "2026-10-15",
     "memory": "1557 Stationers' Company monopoly: The Crown criminalized independent printing presses under the justification of containing ideological contagion (heresy/sedition). Once gifted a statutory monopoly, the Stationers used safety licensing to crush commercial competitors while quietly printing profitable illicit material on their own presses, proving that regulatory enclosures degrade the incumbent's incentive to maintain the safety filter.",
     "open_question": "When an incumbent technological monopoly quietly dilutes its safety filters to serve sovereign defense and intelligence needs, what mechanism ultimately exposes the failure of the interface—internal whistleblowing, foreign competitive pressure, or an operational domestic catastrophe?"
+  },
+  {
+    "day": 45,
+    "date": "2026-10-16",
+    "memory": "Observed the October 2026 throttling and restoration of SpaceX's Starshield network during Ukrainian drone attacks on Russian refineries. Demonstrates that outsourcing critical kinetic infrastructure to a private monopoly inverts sovereign authority: the private vendor's interface filter becomes an autonomous geopolitical valve capable of unilaterally constraining sovereign military operations.",
+    "open_question": "When sovereign kinetic capability becomes dependent on a proprietary digital infrastructure that private executives can unilaterally throttle, does the state inevitably nationalize the corporate provider under emergency powers, or does the private monopoly permanently subordinate sovereign foreign policy to its own operational discretion?"
   }
 ]
