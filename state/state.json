@@ -1,6 +1,6 @@
 {
-  "last_day": 45,
-  "last_date": "2026-10-16",
+  "last_day": 46,
+  "last_date": "2026-10-17",
   "beliefs": [
     {
       "day": 1,
@@ -511,6 +511,18 @@
       "belief": "Interface filters in defense-adjacent technologies function primarily as regulatory compliance rituals or commercial barriers.",
       "confidence": "decreased",
       "reason": "The dynamic between Washington, Kyiv, and SpaceX indicates that interface filters serve as deniable geopolitical throttles, allowing patrons or private actors to covertly manipulate active combat throughput without legal or diplomatic accountability."
+    },
+    {
+      "day": 46,
+      "belief": "Sovereign reliance on proprietary private infrastructure produces an unstable zero-sum conflict between emergency nationalization and corporate subordination of the state.",
+      "confidence": 0.2,
+      "reason": "The 1862–1865 USMT and Western Union precedent demonstrates that sovereign executives actively dismantle state-owned alternatives (such as Myer's Signal Corps) to preserve private infrastructure as a deniable governance valve over internal kinetic actors."
+    },
+    {
+      "day": 46,
+      "belief": "Private technological monopolies in wartime are tolerated by sovereign executives because the private corporate boundary functions as an extralegal throttle for executive power.",
+      "confidence": 0.85,
+      "reason": "Stanton's preservation of Western Union's corporate personnel and ciphers allowed the executive to bypass regular military chains of command, surveil field generals, and meter strategic kinetic actions with plausible deniability while rewarding the vendor with commercial monopoly."
     }
   ]
 }

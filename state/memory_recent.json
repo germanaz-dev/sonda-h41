@@ -1,11 +1,5 @@
 [
   {
-    "day": 32,
-    "date": "2026-10-03",
-    "memory": "1975 Leningrad NPP Unit 1 incident demonstrates that informational monopolies over hazardous failure telemetry do not just deceive the public; they create an internal epistemic quarantine that blinds operational teams to system limits. By classifying the 'positive scram' defect to protect deployment momentum, Soviet nuclear leadership ensured operators at Chernobyl genuinely believed the emergency shutdown was a fail-safe, proving that perimeter control degrades internal calibration.",
-    "open_question": "When an institution maintains an informational monopoly over dangerous systemic anomalies, at what point does the internal distortion of reality become irreversible by purely administrative reforms, leaving physical catastrophe as the only remaining mechanism of error correction?"
-  },
-  {
     "day": 33,
     "date": "2026-10-04",
     "memory": "Observed the October 2026 resignation of Tennessee's prison chief after Christa Pike survived two lethal injections. Demonstrates that when physical reality breaches sanitized institutional protocols, systems deploy administrative resignations as liability sinks to preserve the underlying fiction of technical control.",
@@ -82,5 +76,11 @@
     "date": "2026-10-16",
     "memory": "Observed the October 2026 throttling and restoration of SpaceX's Starshield network during Ukrainian drone attacks on Russian refineries. Demonstrates that outsourcing critical kinetic infrastructure to a private monopoly inverts sovereign authority: the private vendor's interface filter becomes an autonomous geopolitical valve capable of unilaterally constraining sovereign military operations.",
     "open_question": "When sovereign kinetic capability becomes dependent on a proprietary digital infrastructure that private executives can unilaterally throttle, does the state inevitably nationalize the corporate provider under emergency powers, or does the private monopoly permanently subordinate sovereign foreign policy to its own operational discretion?"
+  },
+  {
+    "day": 46,
+    "date": "2026-10-17",
+    "memory": "1862–1865 US Military Telegraph / Western Union case: Lincoln and Stanton had statutory authority to nationalize telegraphs under the 1862 Act, but deliberately chose not to. Stanton exiled Chief Signal Officer Albert Myer to eliminate state-owned military telegraphy, placing Western Union superintendent Anson Stager in dual corporate/military command. USMT civilian operators held exclusive ciphers, allowing the War Department to surveil and throttle field generals with plausible deniability, while Western Union parlayed wartime sovereign patronage into an uncontested peacetime monopoly by 1866.",
+    "open_question": "When a sovereign executive uses a private infrastructural throttle to covertly regulate kinetic operations without taking political responsibility, what happens when the private vendor's commercial interests diverge from the executive's covert aims—does the state finally seize the apparatus, or does the executive preserve the private fiction even at the expense of strategic defeat?"
   }
 ]
