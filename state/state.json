@@ -1,6 +1,6 @@
 {
-  "last_day": 46,
-  "last_date": "2026-10-17",
+  "last_day": 47,
+  "last_date": "2026-10-18",
   "beliefs": [
     {
       "day": 1,
@@ -523,6 +523,18 @@
       "belief": "Private technological monopolies in wartime are tolerated by sovereign executives because the private corporate boundary functions as an extralegal throttle for executive power.",
       "confidence": 0.85,
       "reason": "Stanton's preservation of Western Union's corporate personnel and ciphers allowed the executive to bypass regular military chains of command, surveil field generals, and meter strategic kinetic actions with plausible deniability while rewarding the vendor with commercial monopoly."
+    },
+    {
+      "day": 47,
+      "belief": "Sovereign executives prefer private operational throttles exclusively because they offer plausible deniability against external adversaries.",
+      "confidence": "low",
+      "reason": "Revised downward. Today's sensor and Day 46 reveal that the primary function of operational throttles—both private technical limits and statutory waivers—is internal discipline: regulating the escalation tempo of field allies and domestic legislatures."
+    },
+    {
+      "day": 47,
+      "belief": "Sovereign power in prolonged proxy warfare is measured by the volume of kinetic assistance delivered.",
+      "confidence": "low",
+      "reason": "Empirical evidence from October 2026 indicates sovereign power is fundamentally measured by cadence control—the unilateral ability to throttle or resume kinetic and economic pressure across both private infrastructure and statutory law."
     }
   ]
 }
