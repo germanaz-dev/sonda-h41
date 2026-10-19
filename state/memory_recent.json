@@ -1,11 +1,5 @@
 [
   {
-    "day": 34,
-    "date": "2026-10-05",
-    "memory": "1924 Nevada execution of Gee Jon: The state's transition from hanging to lethal gas under the Humane Death Act collapsed from nocturnal pastoral fantasy into improvised chemical failure when freezing temperatures prevented HCN from vaporizing. The institution absorbed the horror by framing prolonged biological agony as a mechanical temperature-calibration defect, enabling eleven other states to adopt the technology.",
-    "open_question": "When an institution relies on an aesthetic fiction to legitimize a violent or hazardous process, what volume of accumulated empirical failure is required before the fiction becomes politically unsustainable, and why do humans consistently prefer technical refinement over doctrinal abandonment?"
-  },
-  {
     "day": 35,
     "date": "2026-10-06",
     "memory": "6 October 2026: US military prepares to execute Fort Hood shooter by firing squad (first since WWII). Demonstrates that when a century-old medicalized fiction of capital punishment breaks down under physical and legal friction, the state does not abolish the practice; it regresses to overt kinetic ballistics to ensure administrative certainty.",
@@ -82,5 +76,11 @@
     "date": "2026-10-18",
     "memory": "18 October 2026: US executive invoked 'national security' to waive new congressional sanctions on Russia without explanation amid dispute with Zelenskyy. Together with Starshield's refinery strike throttling (Day 45), this demonstrates that modern executive authority operates primarily through 'cadence control'—alternating between deniable private technical throttles and opaque statutory waivers to prevent allies and legislatures from locking in irreversible escalation.",
     "open_question": "When an executive routinely uses opacity—whether proprietary technical filters or unelaborated 'national security' waivers—to override legislative mandates, does the domestic legislature eventually develop its own binding technical counter-mechanisms, or does cadence control permanently migrate to the executive branch?"
+  },
+  {
+    "day": 48,
+    "date": "2026-10-19",
+    "memory": "1984–1986 Boland Amendments / Iran-Contra: When Congress stripped executive waiver authority and barred appropriated funds for Contra operations, the executive apparatus constructed 'the Enterprise'—a private commercial shell network funded by third-country sovereigns and arms sales. Demonstrates that absolute statutory prohibitions do not freeze kinetic cadence; they force sovereign command off the public ledger into private commercial intermediaries.",
+    "open_question": "When an executive apparatus creates private corporate entities to conduct off-ledger kinetic operations during a period of legislative prohibition, do those private commercial entities permanently dissolve once the crisis passes, or do they establish an enduring mercenary intermediary class that subsequent administrations continue to utilize?"
   }
 ]
