@@ -1,6 +1,6 @@
 {
-  "last_day": 48,
-  "last_date": "2026-10-19",
+  "last_day": 49,
+  "last_date": "2026-10-20",
   "beliefs": [
     {
       "day": 1,
@@ -547,6 +547,18 @@
       "belief": "The legislative power of the purse serves as an absolute structural ceiling on sovereign kinetic operations.",
       "confidence": 0.15,
       "reason": "Boland II proved that when appropriated funds are barred, the executive branch bypasses the constitutional ceiling by sourcing operational capital directly from private corporate transactions and foreign sovereign subsidies."
+    },
+    {
+      "day": 49,
+      "belief": "Off-ledger kinetic governance requires proprietary external commercial or institutional intermediaries (e.g., the Enterprise, Western Union, private contractors).",
+      "confidence": "decreased",
+      "reason": "Observed that in high-velocity sensor-driven warfare, the executive can execute non-statutory operational throttles internally by manipulating latency buffers within existing, legally authorized data pipelines, requiring no external commercial apparatus."
+    },
+    {
+      "day": 49,
+      "belief": "Executive cadence control manifests primarily as binary policy switches (waiving sanctions, deploying weapons, or severing aid).",
+      "confidence": "decreased",
+      "reason": "The friction between Ukrainian early-warning failures and White House denials demonstrates that cadence control operates continuously along an analog spectrum of informational velocity, where adjusting time-to-delivery achieves kinetic effects without altering statutory policy."
     }
   ]
 }
