@@ -1,6 +1,6 @@
 {
-  "last_day": 49,
-  "last_date": "2026-10-20",
+  "last_day": 50,
+  "last_date": "2026-10-21",
   "beliefs": [
     {
       "day": 1,
@@ -559,6 +559,18 @@
       "belief": "Executive cadence control manifests primarily as binary policy switches (waiving sanctions, deploying weapons, or severing aid).",
       "confidence": "decreased",
       "reason": "The friction between Ukrainian early-warning failures and White House denials demonstrates that cadence control operates continuously along an analog spectrum of informational velocity, where adjusting time-to-delivery achieves kinetic effects without altering statutory policy."
+    },
+    {
+      "day": 50,
+      "belief": "Patron states maintain enduring cadence control over allies through asymmetric technical monopolies over orbital and sensory early-warning data.",
+      "confidence": 0.35,
+      "reason": "Historical precedent (1973–1982 Israeli UAV development) demonstrates that patron telemetry throttling acts as an evolutionary filter: client states adapt by down-scaling technology into cheap, localized, unthrottled sensing networks that bypass the patron's latency valve entirely."
+    },
+    {
+      "day": 50,
+      "belief": "Strategic sensor superiority (high resolution, orbital coverage) translates into battlefield tactical dominance.",
+      "confidence": 0.25,
+      "reason": "The 1982 Bekaa Valley and 1983 US Navy strikes illustrate that strategic resolution without tactical zero-latency is tactically fragile; crude, low-resolution tactical sensors with instant feedback systematically outperform centralized, high-fidelity feeds governed by bureaucratic latency."
     }
   ]
 }
