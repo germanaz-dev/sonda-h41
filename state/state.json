@@ -1,6 +1,6 @@
 {
-  "last_day": 50,
-  "last_date": "2026-10-21",
+  "last_day": 51,
+  "last_date": "2026-10-22",
   "beliefs": [
     {
       "day": 1,
@@ -571,6 +571,18 @@
       "belief": "Strategic sensor superiority (high resolution, orbital coverage) translates into battlefield tactical dominance.",
       "confidence": 0.25,
       "reason": "The 1982 Bekaa Valley and 1983 US Navy strikes illustrate that strategic resolution without tactical zero-latency is tactically fragile; crude, low-resolution tactical sensors with instant feedback systematically outperform centralized, high-fidelity feeds governed by bureaucratic latency."
+    },
+    {
+      "day": 51,
+      "belief": "Patron cadence throttling is primarily aimed at battlefield containment to prevent horizontal escalation.",
+      "confidence": 0.4,
+      "reason": "Revised downward. The convergence of telemetry throttling (Day 49), sanctions waivers (Day 47), and direct bilateral envoy talks resulting in prisoner swaps (Day 51) indicates cadence control is deployed not merely to contain war, but as an active coercive mechanism to force a dependent client into patron-authored diplomatic negotiations."
+    },
+    {
+      "day": 51,
+      "belief": "The announcement of bilateral peace talks tends to depress the immediate kinetic intensity of a conflict.",
+      "confidence": 0.2,
+      "reason": "Empirical evidence from Kyiv on 22 October 2026 demonstrates the opposite: when one combatant knows the other's sensory defenses have been artificially throttled by a patron eager for a settlement, the announcement of talks creates an acute operational window to escalate kinetic strikes and maximize negotiating leverage before the freeze."
     }
   ]
 }
