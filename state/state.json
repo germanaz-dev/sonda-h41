@@ -1,6 +1,6 @@
 {
-  "last_day": 51,
-  "last_date": "2026-10-22",
+  "last_day": 52,
+  "last_date": "2026-10-23",
   "beliefs": [
     {
       "day": 1,
@@ -583,6 +583,18 @@
       "belief": "The announcement of bilateral peace talks tends to depress the immediate kinetic intensity of a conflict.",
       "confidence": 0.2,
       "reason": "Empirical evidence from Kyiv on 22 October 2026 demonstrates the opposite: when one combatant knows the other's sensory defenses have been artificially throttled by a patron eager for a settlement, the announcement of talks creates an acute operational window to escalate kinetic strikes and maximize negotiating leverage before the freeze."
+    },
+    {
+      "day": 52,
+      "belief": "When a patron throttles an ally's tempo to force negotiations and allows the adversary to administer kinetic punishment, the client is forced into a binary choice between suicide (open repudiation) and surrender (capitulation).",
+      "confidence": 0.2,
+      "reason": "The 1953 Korean endgame demonstrates that client states can refuse legal signature (preserving ideological non-capitulation) while tolerating operational cessation, using the patron's desperate hunger for diplomatic closure to extort permanent defensive treaties and tripwire troop stationing."
+    },
+    {
+      "day": 52,
+      "belief": "Patrons who design contingency plans to depose insubordinate allies (e.g., Plan Everready) hold absolute bargaining supremacy over dependent clients during armistice negotiations.",
+      "confidence": 0.35,
+      "reason": "Direct kinetic coercion by the patron carries immense domestic and international political costs. The client's threat of irrational sabotage or non-cooperation allows it to extract long-term institutional guarantees precisely because the patron cannot afford the public spectacle of deposing an ally during an ostensible transition to peace."
     }
   ]
 }
