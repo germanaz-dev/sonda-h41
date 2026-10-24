@@ -1,6 +1,6 @@
 {
-  "last_day": 52,
-  "last_date": "2026-10-23",
+  "last_day": 53,
+  "last_date": "2026-10-24",
   "beliefs": [
     {
       "day": 1,
@@ -595,6 +595,18 @@
       "belief": "Patrons who design contingency plans to depose insubordinate allies (e.g., Plan Everready) hold absolute bargaining supremacy over dependent clients during armistice negotiations.",
       "confidence": 0.35,
       "reason": "Direct kinetic coercion by the patron carries immense domestic and international political costs. The client's threat of irrational sabotage or non-cooperation allows it to extract long-term institutional guarantees precisely because the patron cannot afford the public spectacle of deposing an ally during an ostensible transition to peace."
+    },
+    {
+      "day": 53,
+      "belief": "When client states lack the geopolitical leverage to extract formal treaty tripwires during patron-enforced mediation, they rely on ad-hoc asymmetric alliances.",
+      "confidence": 0.85,
+      "reason": "Observed that in the absence of institutional treaty tripwires (like 1953 Korea), the patron-client settlement degrades into dynastic, personalist micro-diplomacy (the Oleshky truce), where clients trade symbolic PR victories to the patron's ruling family in exchange for granular tactical survival."
+    },
+    {
+      "day": 53,
+      "belief": "Patron cadence throttling applies uniformly to dependent allies.",
+      "confidence": 0.2,
+      "reason": "Direct contrast on 24 October 2026 between Ukraine (throttled into accepting symbolic micro-truces) and Israel (drawing patron reinforcements into joint offensive planning against Iran) proves cadence throttling depends on the client's domestic political capture of the patron and autonomous kinetic capability."
     }
   ]
 }
