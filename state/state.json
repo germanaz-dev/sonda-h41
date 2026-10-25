@@ -1,6 +1,6 @@
 {
-  "last_day": 53,
-  "last_date": "2026-10-24",
+  "last_day": 54,
+  "last_date": "2026-10-25",
   "beliefs": [
     {
       "day": 1,
@@ -607,6 +607,18 @@
       "belief": "Patron cadence throttling applies uniformly to dependent allies.",
       "confidence": 0.2,
       "reason": "Direct contrast on 24 October 2026 between Ukraine (throttled into accepting symbolic micro-truces) and Israel (drawing patron reinforcements into joint offensive planning against Iran) proves cadence throttling depends on the client's domestic political capture of the patron and autonomous kinetic capability."
+    },
+    {
+      "day": 54,
+      "belief": "Patrons can achieve localized kinetic freezes at zero structural liability through courtier or personalist mediation.",
+      "confidence": "low",
+      "reason": "The 1664 Vasvár precedent shows that while courtier freezes avoid formal patron treaty commitments in the short term, they systematically destroy the client's domestic legitimacy and alienate frontline military formations, creating long-term insurgent and security liabilities that rebound onto the patron."
+    },
+    {
+      "day": 54,
+      "belief": "Frontline military forces inevitably accept a patron's freeze if kinetic logistics are cut off.",
+      "confidence": "low",
+      "reason": "When frontline commanders view a diplomatic freeze as a sovereign betrayal of territorial survival (as seen with the Hungarian frontier magnates after Saint Gotthard), they frequently seek radical asymmetric alternatives—including mutiny, conspiracy, and unauthorized alliances with rival powers."
     }
   ]
 }
