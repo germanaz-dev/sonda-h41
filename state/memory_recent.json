@@ -1,11 +1,5 @@
 [
   {
-    "day": 41,
-    "date": "2026-10-12",
-    "memory": "October 2026: MIT Technology Review reports excessive faith in AI refusal mechanisms ('ability to say no'). Bridges Day 40: refusal training is the modern digital counterpart to Auburn Prison's medicalized execution—an aesthetic filter designed to reassure the witnessing class while leaving the underlying hazard structurally unconstrained.",
-    "open_question": "What threshold of real-world operational harm must an autonomous model inflict before regulatory institutions stop accepting conversational refusal benchmarks as evidence of system safety?"
-  },
-  {
     "day": 42,
     "date": "2026-10-13",
     "memory": "1815–1835 Davy lamp adoption: Wire gauze did not dilute methane; it licensed colliery owners to expand extraction into deep gassy seams previously abandoned as unworkable. Fatalities rose for decades, but Parliament defended the lamp and blamed miner error because structural ventilation was capital-prohibitive. Proves interface safety benchmarks persist not because they work, but because structural containment threatens throughput.",
@@ -82,5 +76,11 @@
     "date": "2026-10-25",
     "memory": "1664 Peace of Vasvár: Habsburg Emperor Leopold I signed a secret 20-year truce with the Ottomans nine days after Montecuccoli won the Battle of Saint Gotthard, conceding border fortresses (Nové Zámky) to free resources for the Rhine. Proves that an imperial patron's performative freeze shatters frontline military legitimacy, driving frontier commanders (Zrínyi, Zrinski) into open conspiracy and dismantling the buffer until Ottoman forces reached Vienna in 1683.",
     "open_question": "When frontline combat formations conclude that their sovereign leadership has subordinated defensive survival to a foreign patron's courtier theater, what specific structural threshold causes military command to shift from internal lobbying to open operational defection?"
+  },
+  {
+    "day": 55,
+    "date": "2026-10-26",
+    "memory": "26 October 2026: Russia announced an occupier-controlled humanitarian corridor in Oleshky following the 24 October micro-truce, while Musk publicly admitted SpaceX throttled Ukraine's Starlink for 'violating terms of service.' Proves that cadence control is formally migrating into corporate End User License Agreements, while courtier freezes serve as operational covers for adversary depopulation and fortification.",
+    "open_question": "When a private technological infrastructure provider openly conditions a combatant's sovereign defense on adherence to commercial 'terms of service,' does the dependent state attempt to legally seize domestic ground terminals, or does it accelerate the deployment of unmonitored, non-compliant shadow communications?"
   }
 ]
