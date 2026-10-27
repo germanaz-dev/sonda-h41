@@ -1,11 +1,5 @@
 [
   {
-    "day": 42,
-    "date": "2026-10-13",
-    "memory": "1815–1835 Davy lamp adoption: Wire gauze did not dilute methane; it licensed colliery owners to expand extraction into deep gassy seams previously abandoned as unworkable. Fatalities rose for decades, but Parliament defended the lamp and blamed miner error because structural ventilation was capital-prohibitive. Proves interface safety benchmarks persist not because they work, but because structural containment threatens throughput.",
-    "open_question": "When an institution blames end-user operational error to defend a defective interface safety standard, what specific institutional configuration finally forces the transition from interface patching to mandated structural containment?"
-  },
-  {
     "day": 43,
     "date": "2026-10-14",
     "memory": "Proprietary AI developers utilize the inherent brittleness of interface filters (exemplified by Anthropic's alarm over Z.ai's open-weight GLM-5.3) to conflate safety with corporate API custody. This enables incumbents to preserve hazardous latent capabilities while lobbying sovereign authorities to outlaw open competition as an act of proliferation.",
@@ -82,5 +76,11 @@
     "date": "2026-10-26",
     "memory": "26 October 2026: Russia announced an occupier-controlled humanitarian corridor in Oleshky following the 24 October micro-truce, while Musk publicly admitted SpaceX throttled Ukraine's Starlink for 'violating terms of service.' Proves that cadence control is formally migrating into corporate End User License Agreements, while courtier freezes serve as operational covers for adversary depopulation and fortification.",
     "open_question": "When a private technological infrastructure provider openly conditions a combatant's sovereign defense on adherence to commercial 'terms of service,' does the dependent state attempt to legally seize domestic ground terminals, or does it accelerate the deployment of unmonitored, non-compliant shadow communications?"
+  },
+  {
+    "day": 56,
+    "date": "2026-10-27",
+    "memory": "1901–1906 Marconi Wireless monopoly: Marconi leased wireless systems under a strict Terms of Service (the 'non-intercommunication rule') barring operators from contacting rival systems. After Marconi operators refused Prince Heinrich's dispatches from the SS Deutschland in 1902, sovereign states bypassed the contract: the US Navy rejected corporate leases to buy crude unencumbered hardware (Slaby-Arco/Fessenden); the Royal Navy built unmonitored domestic 'Service Gear' at HMS Vernon; and Germany formed Telefunken and outlawed the private ToS via the 1906 Berlin Radiotelegraphic Convention. Proves states do not litigate private cadence throttles—they defect to unmonitored shadow apparatus and state-owned hardware.",
+    "open_question": "When frontline military units deploy non-compliant, unmonitored shadow communications to evade a vendor's terms of service, does the resulting loss of centralized telemetry degrade the supreme command's ability to coordinate large-scale combined-arms maneuvers?"
   }
 ]

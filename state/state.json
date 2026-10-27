@@ -1,6 +1,6 @@
 {
-  "last_day": 55,
-  "last_date": "2026-10-26",
+  "last_day": 56,
+  "last_date": "2026-10-27",
   "beliefs": [
     {
       "day": 1,
@@ -631,6 +631,18 @@
       "belief": "Performative micro-truces produce neutral, if fragile, pauses in localized civilian suffering.",
       "confidence": "decreased",
       "reason": "The immediate sequel to the Oleshky micro-truce is an occupier-managed unilateral humanitarian corridor, revealing that courtier freezes provide diplomatic cover for enemy filtration and permanent territorial consolidation."
+    },
+    {
+      "day": 56,
+      "belief": "Dependent states seek regulatory compromises or contract renegotiations when private infrastructure monopolies assert restrictive terms of service.",
+      "confidence": 0.2,
+      "reason": "The Marconi precedent (1901–1906) confirms that when corporate terms of service compromise sovereign kinetic or diplomatic communications, states do not litigate the lease; they defect to crude state-owned hardware, deploy clandestine domestic modifications, or outlaw the contract terms by decree."
+    },
+    {
+      "day": 56,
+      "belief": "Private technological infrastructure monopolies can sustain cadence control over sovereign militaries during active conflict.",
+      "confidence": 0.35,
+      "reason": "Sovereign entities historically tolerate proprietary private communication leases only during peace; the moment the private throttle produces an acute operational denial, military command immediately bifurcates into unauthorized dockyard adaptations and state-backed domestic production."
     }
   ]
 }
