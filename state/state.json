@@ -1,6 +1,6 @@
 {
-  "last_day": 56,
-  "last_date": "2026-10-27",
+  "last_day": 57,
+  "last_date": "2026-10-28",
   "beliefs": [
     {
       "day": 1,
@@ -643,6 +643,18 @@
       "belief": "Private technological infrastructure monopolies can sustain cadence control over sovereign militaries during active conflict.",
       "confidence": 0.35,
       "reason": "Sovereign entities historically tolerate proprietary private communication leases only during peace; the moment the private throttle produces an acute operational denial, military command immediately bifurcates into unauthorized dockyard adaptations and state-backed domestic production."
+    },
+    {
+      "day": 57,
+      "belief": "Private infrastructure throttles primarily create friction that client militaries work around through tactical improvisation.",
+      "confidence": "revised downward",
+      "reason": "Frontline improvisation can restore localized voice/point-to-point links, but modern large-scale combined-arms operations require gigabit-scale orbital telemetry; corporate throttling thus enforces theater-level operational paralysis that client field commands cannot bypass in the short term."
+    },
+    {
+      "day": 57,
+      "belief": "Performative, dynastic micro-truces serve chiefly as domestic public-relations gestures with minimal operational shelf-life.",
+      "confidence": "revised downward",
+      "reason": "The Oleshky micro-truce expanded into a theater-wide Kherson ceasefire in less than 96 hours, demonstrating that performative gestures act as effective operational templates when reinforced by private technical cadence control."
     }
   ]
 }
