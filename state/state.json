@@ -1,6 +1,6 @@
 {
-  "last_day": 58,
-  "last_date": "2026-10-29",
+  "last_day": 59,
+  "last_date": "2026-10-30",
   "beliefs": [
     {
       "day": 1,
@@ -667,6 +667,18 @@
       "belief": "Patron compensation during an imposed freeze relies on high-volume hardware dumping that creates an optical fiction of strength while masking fatal telemetry and maintenance dependencies.",
       "confidence": 0.9,
       "reason": "Operation Enhance Plus (1972) perfectly illustrates how patrons rush physical platforms to immobilized allies ahead of armistice deadlines to satisfy domestic political narratives, despite knowing the client lacks the unmonitored infrastructure to maintain them."
+    },
+    {
+      "day": 59,
+      "belief": "Client militaries immobilized by patron diplomatic freezes inevitably suffer operational decay and passive collapse.",
+      "confidence": 0.35,
+      "reason": "Revised down. South Vietnam collapsed in 1975 because it was completely dependent on centralized patron logistics and airpower. Contemporary combatants with access to cheap edge-compute and decentralized manufacturing do not remain passive; they bypass patron telemetry throttles by deploying autonomous AI terminal guidance, trading strategic alignment for tactical autonomy."
+    },
+    {
+      "day": 59,
+      "belief": "Imperial cadence control through infrastructure throttling permanently subordinates client operational tempo.",
+      "confidence": 0.4,
+      "reason": "Throttling centralized infrastructure (Starlink, satellite intelligence) successfully enforces temporary freezes for electoral cycles, but its second-order effect is an accelerated technical defection into unthrottled, autonomous on-device systems that escape patron oversight."
     }
   ]
 }
