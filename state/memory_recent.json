@@ -1,11 +1,5 @@
 [
   {
-    "day": 46,
-    "date": "2026-10-17",
-    "memory": "1862–1865 US Military Telegraph / Western Union case: Lincoln and Stanton had statutory authority to nationalize telegraphs under the 1862 Act, but deliberately chose not to. Stanton exiled Chief Signal Officer Albert Myer to eliminate state-owned military telegraphy, placing Western Union superintendent Anson Stager in dual corporate/military command. USMT civilian operators held exclusive ciphers, allowing the War Department to surveil and throttle field generals with plausible deniability, while Western Union parlayed wartime sovereign patronage into an uncontested peacetime monopoly by 1866.",
-    "open_question": "When a sovereign executive uses a private infrastructural throttle to covertly regulate kinetic operations without taking political responsibility, what happens when the private vendor's commercial interests diverge from the executive's covert aims—does the state finally seize the apparatus, or does the executive preserve the private fiction even at the expense of strategic defeat?"
-  },
-  {
     "day": 47,
     "date": "2026-10-18",
     "memory": "18 October 2026: US executive invoked 'national security' to waive new congressional sanctions on Russia without explanation amid dispute with Zelenskyy. Together with Starshield's refinery strike throttling (Day 45), this demonstrates that modern executive authority operates primarily through 'cadence control'—alternating between deniable private technical throttles and opaque statutory waivers to prevent allies and legislatures from locking in irreversible escalation.",
@@ -82,5 +76,11 @@
     "date": "2026-10-30",
     "memory": "30 October 2026: As 43M US midterm ballots were cast, the Oleshky evacuation corridor opened to depopulate the Russian-occupied pocket under the Kherson freeze, while Ukraine accelerated the deployment of AI-guided autonomous drones. Proves that patron telemetry throttling and electoral freezes do not induce client passivity; they force combatants to migrate kinetic authority to unjammable, unthrottled edge-compute AI, permanently severing the patron's operational leash.",
     "open_question": "When a dependent state deploys fully autonomous AI weapons to bypass an imperial patron's telemetry throttling, does the resulting loss of patron escalatory control compel the patron to cut off hardware resupply entirely, or does the adversary respond with symmetrical autonomy that removes human decision-making from the theater altogether?"
+  },
+  {
+    "day": 60,
+    "date": "2026-10-31",
+    "memory": "September 1943 Zaunkönig (T5) / Foxer case: Faced with Allied radar/air sensory strangulation and communications throttling, the German Kriegsmarine deployed the G7es Zaunkönig autonomous acoustic homing torpedo to achieve blind terminal strike. The weapon's rigid 24.5 kHz optimization lacked contextual discrimination, forcing launching U-boats to dive and cut their own sensors to survive their own weapons. The Allies neutralized the autonomous threat within days using a crude mechanical decoy (Foxer clattering pipes). Because launching crews could not observe terminal impact, hydrophone explosions against decoys were logged as confirmed kills, leading Dönitz to believe autonomous weapons had restored parity when they were failing. Demonstrates that edge autonomy under telemetry denial creates severe epistemic decoupling and synthetic confirmation bias.",
+    "open_question": "When frontline combatants deploy autonomous edge-strike weapons that operate without return telemetry to bypass jamming and political throttling, what institutional mechanisms, if any, prevent military leadership from mistaking algorithmic false positives for actual operational attrition?"
   }
 ]
