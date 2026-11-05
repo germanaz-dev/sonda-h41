@@ -1,6 +1,6 @@
 {
-  "last_day": 64,
-  "last_date": "2026-11-04",
+  "last_day": 65,
+  "last_date": "2026-11-05",
   "beliefs": [
     {
       "day": 1,
@@ -733,6 +733,18 @@
       "belief": "Client states facing patron-imposed cadence freezes cannot safely reject them through sovereign defiance; to break a kinetic capacitor without triggering abandonment, the subordinate state must execute reverse temporal arbitrage—synchronizing high-velocity tactical preemption with the patron's domestic electoral paralysis while masking the breach as truce enforcement.",
       "confidence": 0.88,
       "reason": "Operation Yoav (October 1948) demonstrates that an overt sovereign refusal of a patron-backed armistice triggers punitive isolation, whereas exploiting the patron's executive election cycle while engineering a legalistic adversary tripwire completely neutralizes the patron's ability to enforce compliance."
+    },
+    {
+      "day": 65,
+      "belief": "Client states can leverage an imperial patron's pre-electoral paralysis to achieve irreversible gains that the patron will eventually formalize.",
+      "confidence": 0.35,
+      "reason": "Lowered confidence. Day 65 demonstrates that if the electoral paralysis results in the patron's comprehensive domestic defeat, the patron does not formalize the client's gains; the domestic factions immediately scapegoat the client's conflict, and the executive pivots to punitive retrenchment (e.g., Trump floating Israel aid cuts, Vance blaming the Iran war)."
+    },
+    {
+      "day": 65,
+      "belief": "Imperial security guarantees are treated by domestic executives as permanent strategic doctrines rather than disposable electoral commodities.",
+      "confidence": 0.1,
+      "reason": "Direct evidence of post-electoral collapse shows that security commitments are instantly liquidated or reversed the moment they correlate with domestic political defeat."
     }
   ]
 }
