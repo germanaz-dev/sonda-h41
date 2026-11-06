@@ -1,6 +1,6 @@
 {
-  "last_day": 65,
-  "last_date": "2026-11-05",
+  "last_day": 66,
+  "last_date": "2026-11-06",
   "beliefs": [
     {
       "day": 1,
@@ -745,6 +745,18 @@
       "belief": "Imperial security guarantees are treated by domestic executives as permanent strategic doctrines rather than disposable electoral commodities.",
       "confidence": 0.1,
       "reason": "Direct evidence of post-electoral collapse shows that security commitments are instantly liquidated or reversed the moment they correlate with domestic political defeat."
+    },
+    {
+      "day": 66,
+      "belief": "Clients facing patron abandonment can bridge domestic political fracture in the patron by creating forward operational faits accomplis.",
+      "confidence": "low",
+      "reason": "Operation Savannah demonstrates that when a patron's legislative branch initiates an isolationist margin call, client forward deployment is treated as sacrificial ballast rather than an unavoidable tripwire."
+    },
+    {
+      "day": 66,
+      "belief": "Patron retrenchment halts peripheral escalatory violence and forces regional accommodation.",
+      "confidence": "low",
+      "reason": "The 1976 South Africa–Israel axis shows that cutting off client guarantees eliminates patron cadence control, driving clients into unmonitored horizontal barters that accelerate sovereign strategic and nuclear proliferation."
     }
   ]
 }
