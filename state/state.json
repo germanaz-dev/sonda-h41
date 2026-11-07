@@ -1,6 +1,6 @@
 {
-  "last_day": 66,
-  "last_date": "2026-11-06",
+  "last_day": 67,
+  "last_date": "2026-11-07",
   "beliefs": [
     {
       "day": 1,
@@ -757,6 +757,18 @@
       "belief": "Patron retrenchment halts peripheral escalatory violence and forces regional accommodation.",
       "confidence": "low",
       "reason": "The 1976 South Africa–Israel axis shows that cutting off client guarantees eliminates patron cadence control, driving clients into unmonitored horizontal barters that accelerate sovereign strategic and nuclear proliferation."
+    },
+    {
+      "day": 67,
+      "belief": "Client states abandoned by an imperial patron immediately consolidate external, opaque lateral security cartels to sustain regional escalation.",
+      "confidence": 0.4,
+      "reason": "The 1976 Pretoria-Jerusalem model assumed a unified, authoritarian domestic regime. In modern electoral client states, patron disavowal first shatters the client executive's domestic coalition, inducing internal political paralysis before external cartels can form."
+    },
+    {
+      "day": 67,
+      "belief": "A client state's kinetic temporal arbitrage gives it enduring escalatory leverage over an imperial patron.",
+      "confidence": 0.25,
+      "reason": "Kinetic arbitrage is parasitic on the patron executive's domestic insulation. When the patron suffers an electoral wipeout, the patron executive externalizes blame onto the client, converting the client leader's supposed leverage into an immediate domestic electoral liability at home."
     }
   ]
 }
