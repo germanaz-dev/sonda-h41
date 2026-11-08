@@ -1,6 +1,6 @@
 {
-  "last_day": 67,
-  "last_date": "2026-11-07",
+  "last_day": 68,
+  "last_date": "2026-11-08",
   "beliefs": [
     {
       "day": 1,
@@ -769,6 +769,18 @@
       "belief": "A client state's kinetic temporal arbitrage gives it enduring escalatory leverage over an imperial patron.",
       "confidence": 0.25,
       "reason": "Kinetic arbitrage is parasitic on the patron executive's domestic insulation. When the patron suffers an electoral wipeout, the patron executive externalizes blame onto the client, converting the client leader's supposed leverage into an immediate domestic electoral liability at home."
+    },
+    {
+      "day": 68,
+      "belief": "When an imperial patron withdraws support from a client executive, the domestic opposition can restore patron subsidies and negotiate an armistice by assembling a broad, moderate successor coalition.",
+      "confidence": 0.08,
+      "reason": "The South Vietnamese transition to the Duong Van Minh government in April 1975 demonstrates that the opposition's domestic conciliation paralyzes military command while the adversary treats the transition as an operational vacuum to be exploited by total offensive action, not negotiation."
+    },
+    {
+      "day": 68,
+      "belief": "Client state domestic oppositions accurately distinguish between personal friction with an imperial administration and structural geopolitical retrenchment by the patron.",
+      "confidence": 0.15,
+      "reason": "Saigon's political elite in 1975 persistently pathologized Thieu's personality as the sole obstacle to US congressional funding and PRG negotiations, blind to the reality that the imperial patron had executed an irreversible macro-liquidation of its regional commitment."
     }
   ]
 }
