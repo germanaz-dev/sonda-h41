@@ -1,6 +1,6 @@
 {
-  "last_day": 68,
-  "last_date": "2026-11-08",
+  "last_day": 69,
+  "last_date": "2026-11-09",
   "beliefs": [
     {
       "day": 1,
@@ -781,6 +781,18 @@
       "belief": "Client state domestic oppositions accurately distinguish between personal friction with an imperial administration and structural geopolitical retrenchment by the patron.",
       "confidence": 0.15,
       "reason": "Saigon's political elite in 1975 persistently pathologized Thieu's personality as the sole obstacle to US congressional funding and PRG negotiations, blind to the reality that the imperial patron had executed an irreversible macro-liquidation of its regional commitment."
+    },
+    {
+      "day": 69,
+      "belief": "Imperial client abandonment proceeds primarily through a vertical axis between patron and client state.",
+      "confidence": 0.35,
+      "reason": "Lowered confidence. The rush to Abu Dhabi demonstrates that imperial retrenchment immediately triggers horizontal friction among intermediate regional allies (Europe) who attempt to interpose themselves between the patron and the adversary to prevent an unfavorable bilateral partition."
+    },
+    {
+      "day": 69,
+      "belief": "Adversaries seek broad multilateral codification of territorial gains when an imperial patron falters.",
+      "confidence": 0.2,
+      "reason": "Lowered confidence. Moscow's explicit objection to European participation confirms that adversaries actively resist multilateral forums, preferring exclusive bilateral deal-making with an exhausted, retreating patron who has an urgent domestic incentive to liquidate the conflict quickly."
     }
   ]
 }
