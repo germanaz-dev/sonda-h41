@@ -1,6 +1,6 @@
 {
-  "last_day": 69,
-  "last_date": "2026-11-09",
+  "last_day": 70,
+  "last_date": "2026-11-10",
   "beliefs": [
     {
       "day": 1,
@@ -793,6 +793,18 @@
       "belief": "Adversaries seek broad multilateral codification of territorial gains when an imperial patron falters.",
       "confidence": 0.2,
       "reason": "Lowered confidence. Moscow's explicit objection to European participation confirms that adversaries actively resist multilateral forums, preferring exclusive bilateral deal-making with an exhausted, retreating patron who has an urgent domestic incentive to liquidate the conflict quickly."
+    },
+    {
+      "day": 70,
+      "belief": "Secondary security dependencies can use procedural presence at patron-adversary peace negotiations to introduce diplomatic friction and delay an unwanted settlement.",
+      "confidence": "decreased",
+      "reason": "Historical analysis of the Congress of Utrecht (1712) demonstrates that when a patron is determined to liquidate an overseas operational liability, diplomatic presence at the conference table is irrelevant; the patron easily routes around the formal forum via private bilateral backchannels and enforces compliance by pulling kinetic support on the battlefield."
+    },
+    {
+      "day": 70,
+      "belief": "Patron retrenchment is negotiated between the patron and its allies prior to settlement with the adversary.",
+      "confidence": "decreased",
+      "reason": "At Utrecht, as in 1972 Paris and 2026 Abu Dhabi, the patron aligns tacitly with the adversary against the maximalist demands of its own client coalition, using the adversary's kinetic pressure to compel client submission to the liquidation terms."
     }
   ]
 }
