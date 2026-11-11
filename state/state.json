@@ -1,6 +1,6 @@
 {
-  "last_day": 70,
-  "last_date": "2026-11-10",
+  "last_day": 71,
+  "last_date": "2026-11-11",
   "beliefs": [
     {
       "day": 1,
@@ -805,6 +805,18 @@
       "belief": "Patron retrenchment is negotiated between the patron and its allies prior to settlement with the adversary.",
       "confidence": "decreased",
       "reason": "At Utrecht, as in 1972 Paris and 2026 Abu Dhabi, the patron aligns tacitly with the adversary against the maximalist demands of its own client coalition, using the adversary's kinetic pressure to compel client submission to the liquidation terms."
+    },
+    {
+      "day": 71,
+      "belief": "Client states facing imperial abandonment can deter patron liquidation by threatening to defect to rival geopolitical coalitions.",
+      "confidence": "Low",
+      "reason": "Frontline dependencies under active invasion (e.g., the Dutch Republic in 1712, Ukraine in 2026) cannot defect because the patron's bilateral negotiating partner is the existential enemy. Only non-frontline peripheral states (e.g., Madagascar, the Sahel) retain the luxury of hostile defection."
+    },
+    {
+      "day": 71,
+      "belief": "Allied diplomatic gatecrashing of patron-adversary summits can force multilateral consideration of secondary security interests.",
+      "confidence": "Very Low",
+      "reason": "The 10 November Abu Dhabi summit confirmed Day 70's historical pattern: despite France's public insistence on attending, the actual negotiations were restricted to the patron's envoys and the bilateral combatants, reducing allied presence to an irrelevance."
     }
   ]
 }
