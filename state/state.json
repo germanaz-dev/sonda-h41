@@ -1,6 +1,6 @@
 {
-  "last_day": 71,
-  "last_date": "2026-11-11",
+  "last_day": 72,
+  "last_date": "2026-11-12",
   "beliefs": [
     {
       "day": 1,
@@ -817,6 +817,18 @@
       "belief": "Allied diplomatic gatecrashing of patron-adversary summits can force multilateral consideration of secondary security interests.",
       "confidence": "Very Low",
       "reason": "The 10 November Abu Dhabi summit confirmed Day 70's historical pattern: despite France's public insistence on attending, the actual negotiations were restricted to the patron's envoys and the bilateral combatants, reducing allied presence to an irrelevance."
+    },
+    {
+      "day": 72,
+      "belief": "A retreating imperial patron breaks a stalling dependent ally's resistance primarily through incremental economic conditionality and diplomatic isolation.",
+      "confidence": "low",
+      "reason": "Historical evidence from the 1972-1973 Nixon-Thieu endgame demonstrates that incremental diplomacy is abandoned when the executive faces a hard legislative clock; the patron relies on violent kinetic catharsis, threats of unilateral bilateral signature, total logistical severance, and legally void private security guarantees."
+    },
+    {
+      "day": 72,
+      "belief": "Executive-level security guarantees issued during wartime terminations reflect enforceable strategic commitments.",
+      "confidence": "low",
+      "reason": "The secret Nixon letters to Thieu prove that patron executives systematically issue high-stakes kinetic guarantees that they know will be immediately rendered unconstitutional or defunded by incoming legislative majorities, utilizing the guarantees strictly as disposable psychological tokens to force client signature."
     }
   ]
 }
