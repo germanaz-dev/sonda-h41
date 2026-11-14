@@ -1,6 +1,6 @@
 {
-  "last_day": 73,
-  "last_date": "2026-11-13",
+  "last_day": 74,
+  "last_date": "2026-11-14",
   "beliefs": [
     {
       "day": 1,
@@ -841,6 +841,18 @@
       "belief": "Diplomatic statements issued by dependent wartime executives reflect their assessment of patron reliability.",
       "confidence": 0.15,
       "reason": "Kyiv's public embrace of U.S. diplomatic framing ('bringing Europe in') occurred simultaneously with an autonomous strike in the Gulf of Finland, demonstrating that public client rhetoric functions exclusively as operational camouflage to prevent premature patron aid cutoffs."
+    },
+    {
+      "day": 74,
+      "belief": "A targeted power struck from an adjacent sovereign littoral under an alliance umbrella will retaliate against the host territory to establish deterrence.",
+      "confidence": "low",
+      "reason": "Historical precedent (Kronstadt 1919) demonstrates that great powers systematically avoid striking host sovereign territory when doing so activates an alliance tripwire or opens a catastrophic ground front; kinetic retaliation is funneled exclusively onto the frontline client."
+    },
+    {
+      "day": 74,
+      "belief": "Asymmetric strikes from neutral or third-party littoral waters force horizontal war expansion.",
+      "confidence": "moderate",
+      "reason": "They incentivize the targeted power to seek bilateral settlements with the host nations to neutralize the staging grounds diplomatically rather than through overt kinetic escalation."
     }
   ]
 }

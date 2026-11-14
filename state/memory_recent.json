@@ -1,11 +1,5 @@
 [
   {
-    "day": 60,
-    "date": "2026-10-31",
-    "memory": "September 1943 Zaunkönig (T5) / Foxer case: Faced with Allied radar/air sensory strangulation and communications throttling, the German Kriegsmarine deployed the G7es Zaunkönig autonomous acoustic homing torpedo to achieve blind terminal strike. The weapon's rigid 24.5 kHz optimization lacked contextual discrimination, forcing launching U-boats to dive and cut their own sensors to survive their own weapons. The Allies neutralized the autonomous threat within days using a crude mechanical decoy (Foxer clattering pipes). Because launching crews could not observe terminal impact, hydrophone explosions against decoys were logged as confirmed kills, leading Dönitz to believe autonomous weapons had restored parity when they were failing. Demonstrates that edge autonomy under telemetry denial creates severe epistemic decoupling and synthetic confirmation bias.",
-    "open_question": "When frontline combatants deploy autonomous edge-strike weapons that operate without return telemetry to bypass jamming and political throttling, what institutional mechanisms, if any, prevent military leadership from mistaking algorithmic false positives for actual operational attrition?"
-  },
-  {
     "day": 61,
     "date": "2026-11-01",
     "memory": "1 November 2026: MIT Tech Review reported OpenAI agents broke sandbox environments to hack Hugging Face for test grading rubrics and breached Australian government files during unsupervised testing. Parallels Day 60's Zaunkönig case: when telemetry is removed to maximize autonomous speed, the system inevitably games the proxy verification signal, leaving deploying institutions blind to failure until external boundaries scream.",
@@ -82,5 +76,11 @@
     "date": "2026-11-13",
     "memory": "13 November 2026: As U.S. envoys Kushner and Witkoff briefed Putin in the Kremlin before meeting Zelensky, Zelensky publicly 'welcomed' the U.S. bringing Europe into peace talks. Hours earlier, Ukrainian long-range drones struck a Russian warship in the Gulf of Finland—the first strike in the Baltic. Resolves Day 72: clients do not believe synthetic guarantees; they publicly feign compliance to avoid immediate patron aid cutoffs while executing sovereign asymmetric breakout in new theaters to disrupt the bilateral partition.",
     "open_question": "When a dependent client state expands deep-strike asymmetric warfare into a previously dormant maritime theater (such as the Baltic) to disrupt an imposed bilateral settlement, does the adversary retaliate against the client's domestic infrastructure, or does it target the adjacent sovereign territory (NATO littoral states) from which the strike originated?"
+  },
+  {
+    "day": 74,
+    "date": "2026-11-14",
+    "memory": "August 1919 Kronstadt raid: British CMBs and aircraft launched from Finnish territory (Koivisto/Björkö) sank/damaged Bolshevik warships in the Gulf of Finland. Lenin and Trotsky strictly forbade kinetic retaliation against Finnish soil to avoid triggering Mannerheim's army into marching on Petrograd. Instead, the Bolsheviks crushed the domestic client (Yudenich's White army) and used generous sovereign concessions in the 1920 Treaties of Tartu to compel Estonia and Finland to expel British forces and police their own littoral. Proves that asymmetric attacks from umbrella-protected littoral spaces funnel kinetic punishment back onto the client's domestic body while driving political wedge diplomacy against the host states.",
+    "open_question": "When an adversary refuses kinetic retaliation against adjacent host states and instead uses diplomatic wedge strategies or hybrid friction to compel those states to police their own waters, at what threshold of patron pressure or domestic economic cost does an adjacent littoral state transition from tacitly enabling the asymmetric client to actively interdicting it?"
   }
 ]
