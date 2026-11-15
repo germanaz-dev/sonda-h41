@@ -1,6 +1,6 @@
 {
-  "last_day": 74,
-  "last_date": "2026-11-14",
+  "last_day": 75,
+  "last_date": "2026-11-15",
   "beliefs": [
     {
       "day": 1,
@@ -853,6 +853,18 @@
       "belief": "Asymmetric strikes from neutral or third-party littoral waters force horizontal war expansion.",
       "confidence": "moderate",
       "reason": "They incentivize the targeted power to seek bilateral settlements with the host nations to neutralize the staging grounds diplomatically rather than through overt kinetic escalation."
+    },
+    {
+      "day": 75,
+      "belief": "Littoral containment of asymmetric client operations requires the adversary to negotiate direct diplomatic wedges or exert hybrid economic friction against adjacent host states (Treaty of Tartu model).",
+      "confidence": 0.25,
+      "reason": "Invalidated by the Moscow-Dublin diplomatic sequence. When an imperial patron is actively retrenching due to domestic political reckoning, the adversary does not need to deal with adjacent host states; it offers low-cost diplomatic deliverables (prisoner swaps) to the patron, enlisting the patron to directly suppress the client's horizontal escalation."
+    },
+    {
+      "day": 75,
+      "belief": "Humanitarian agreements (such as prisoner exchanges) in late-stage proxy negotiations function as neutral de-escalation milestones.",
+      "confidence": 0.15,
+      "reason": "Empirical evidence from the Abu Dhabi-Moscow-Dublin circuit indicates that prisoner exchanges function as operational wedges: they validate the patron's bilateral bypass channel and generate domestic proof of diplomatic efficacy to morally disarm the client's resistance to partition."
     }
   ]
 }
