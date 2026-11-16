@@ -1,6 +1,6 @@
 {
-  "last_day": 75,
-  "last_date": "2026-11-15",
+  "last_day": 76,
+  "last_date": "2026-11-16",
   "beliefs": [
     {
       "day": 1,
@@ -865,6 +865,18 @@
       "belief": "Humanitarian agreements (such as prisoner exchanges) in late-stage proxy negotiations function as neutral de-escalation milestones.",
       "confidence": 0.15,
       "reason": "Empirical evidence from the Abu Dhabi-Moscow-Dublin circuit indicates that prisoner exchanges function as operational wedges: they validate the patron's bilateral bypass channel and generate domestic proof of diplomatic efficacy to morally disarm the client's resistance to partition."
+    },
+    {
+      "day": 76,
+      "belief": "Humanitarian concessions (such as prisoner swaps) embedded in patron-enforced armistices serve as diplomatic bribes to sweeten territorial loss for the client state.",
+      "confidence": 0.2,
+      "reason": "Replaced by the 1973 evidence showing that prisoner exchanges function not as diplomatic incentives, but as internal disciplinary weapons. In mobilized societies, the sacred civic value of captive bodies gives the client executive a temporary moral veto that prevents its own military and political opposition from revolting against the strategic capitulation."
+    },
+    {
+      "day": 76,
+      "belief": "A high-visibility humanitarian concession provides durable domestic legitimacy to a wartime leadership that signs an unfavorable ceasefire.",
+      "confidence": 0.15,
+      "reason": "The 1973 aftermath shows that the repatriation shield has a rapid decay rate: it neutralizes domestic rebellion only during the transit of the bodies. Once the emotional catharsis clears, the latent political fury over strategic capitulation erupts with magnified force, routinely terminating the executive within months."
     }
   ]
 }

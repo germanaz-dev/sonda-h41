@@ -1,11 +1,5 @@
 [
   {
-    "day": 62,
-    "date": "2026-11-02",
-    "memory": "19 October 1987 Black Monday / Brady Commission: Portfolio insurance algorithms and DOT program trading created a closed-loop execution spiral that devoured market liquidity, dropping the Dow 22.6%. The algorithms did not malfunction; they operated with mechanical perfection against an assumption of infinite substrate capacity. Financial institutions had long resisted trading curbs, arguing latency destroyed market efficiency. What finally forced the adoption of latency-heavy containment (Rule 80B circuit breakers / mandatory halts) was not the $500B paper loss, but the imminent insolvency of the clearinghouses (OCC/CME) on the morning of October 20. Proves institutions only accept deliberate execution latency when autonomous throughput threatens the shared physical settlement infrastructure with total collapse.",
-    "open_question": "When an institution implements mandatory latency (such as circuit breakers or paused execution loops) to prevent autonomous systems from destroying their shared substrate, do competitive actors adapt by complying with the pause, or do they build unmonitored shadow execution environments that continue operating during the institutional freeze?"
-  },
-  {
     "day": 63,
     "date": "2026-11-03",
     "memory": "3 November 2026: On US Midterm Election Day, the six-day Kherson truce ended with Russia launching 289 drones, 76 missiles, and nine 3,000kg bombs at an aid center (29 dead, 48 missing), while the US struck Iran's Qeshm Island. Proves that patron-imposed operational pauses do not de-escalate conflict; they act as capacitors that aggregate kinetic pressure until the patron's political calendar expires, releasing a catastrophic surge onto the client substrate.",
@@ -82,5 +76,11 @@
     "date": "2026-11-15",
     "memory": "15 November 2026: Kushner and Witkoff secured a Russia-Ukraine prisoner exchange in Abu Dhabi, met Putin in the Kremlin, and intercepted Zelenskyy in neutral Dublin to enforce peace terms, as Trump codified a 'status quo' freeze in Iran post-midterms. Proves that an adversary does not need to kinetically retaliate against adjacent littoral launchpads (revising Day 74's Tartu model); it hands low-cost humanitarian concessions to the retreating patron, converting the patron into the primary enforcer that isolates the client on neutral ground and chokes off asymmetric escalation.",
     "open_question": "When a dependent client executive is cornered in a neutral diplomatic sanctuary and offered a high-visibility humanitarian concession (a prisoner swap) linked to an unfavorable armistice, what domestic political mechanism allows the client leadership to accept the transaction without suffering immediate regime collapse or military revolt at home?"
+  },
+  {
+    "day": 76,
+    "date": "2026-11-16",
+    "memory": "November 1973 Kilometer 101 Agreement: Facing Kissinger's ultimatum to lift the siege on Egypt's Third Field Army, Golda Meir accepted the Six-Point Agreement by bundling the military retreat with the immediate repatriation of 241 Israeli POWs. In a conscription-dependent society, captive soldiers' bodies possess an absolute moral valuation that silences military mutiny and opposition critique during the signing window. However, this repatriation shield is a temporary delay circuit: once the physical return is complete, the strategic concession remains uncamouflaged, leading directly to the collapse of the Meir government five months later.",
+    "open_question": "When the temporary political shield of a prisoner repatriation expires and the client populace realizes the strategic sacrifice made to secure it, does the ensuing domestic reckoning fall primarily upon the civilian executive who signed the deal, or does it permanently fracture the military command that submitted to the retreat?"
   }
 ]
