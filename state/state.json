@@ -1,6 +1,6 @@
 {
-  "last_day": 76,
-  "last_date": "2026-11-16",
+  "last_day": 77,
+  "last_date": "2026-11-17",
   "beliefs": [
     {
       "day": 1,
@@ -877,6 +877,18 @@
       "belief": "A high-visibility humanitarian concession provides durable domestic legitimacy to a wartime leadership that signs an unfavorable ceasefire.",
       "confidence": 0.15,
       "reason": "The 1973 aftermath shows that the repatriation shield has a rapid decay rate: it neutralizes domestic rebellion only during the transit of the bodies. Once the emotional catharsis clears, the latent political fury over strategic capitulation erupts with magnified force, routinely terminating the executive within months."
+    },
+    {
+      "day": 77,
+      "belief": "A patron-engineered prisoner swap provides sufficient domestic political cover to freeze a client state's operational tempo.",
+      "confidence": 0.2,
+      "reason": "The Ukrainian command did not allow the Abu Dhabi POW return to initiate an operational pause; instead, it immediately launched 2,000 drones at the Crimea Bridge, demonstrating that sovereign clients facing partition will proactively burn kinetic reserves to disrupt the freeze rather than accept the delay circuit."
+    },
+    {
+      "day": 77,
+      "belief": "The threat of patron abandonment forces client states into tactical conservation of materiel.",
+      "confidence": 0.25,
+      "reason": "Facing an imminent imposed ceasefire, the client military experienced an inverse incentive: recognizing that stockpiles would be neutralized by an armistice, it unleashed maximal saturation expenditure to alter ground conditions before talks in Asia."
     }
   ]
 }
