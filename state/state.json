@@ -1,6 +1,6 @@
 {
-  "last_day": 77,
-  "last_date": "2026-11-17",
+  "last_day": 78,
+  "last_date": "2026-11-18",
   "beliefs": [
     {
       "day": 1,
@@ -889,6 +889,18 @@
       "belief": "The threat of patron abandonment forces client states into tactical conservation of materiel.",
       "confidence": 0.25,
       "reason": "Facing an imminent imposed ceasefire, the client military experienced an inverse incentive: recognizing that stockpiles would be neutralized by an armistice, it unleashed maximal saturation expenditure to alter ground conditions before talks in Asia."
+    },
+    {
+      "day": 78,
+      "belief": "A client state that discharges its kinetic reserves in a saturation surge retains residual diplomatic leverage through the demonstrated threat of continued resistance.",
+      "confidence": "low",
+      "reason": "The 1938 Ebro precedent shows that when the external powers ignore the kinetic disruption and codify partition (Munich), the client retains zero residual leverage; the expenditure leaves the client's domestic body completely hollowed out, inviting rapid territorial collapse."
+    },
+    {
+      "day": 78,
+      "belief": "The primary domestic danger to a client executive after a failed kinetic surge comes from popular unrest over economic devastation.",
+      "confidence": "low",
+      "reason": "The primary threat is structural and internal to the armed forces: the military command, realizing the civilian executive spent the nation's irreplaceable reserves on a diplomatic gamble that failed, mounts a preemptive coup (e.g., Casado Coup) to salvage whatever terms it can before total frontline collapse."
     }
   ]
 }
