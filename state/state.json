@@ -1,6 +1,6 @@
 {
-  "last_day": 78,
-  "last_date": "2026-11-18",
+  "last_day": 79,
+  "last_date": "2026-11-19",
   "beliefs": [
     {
       "day": 1,
@@ -901,6 +901,18 @@
       "belief": "The primary domestic danger to a client executive after a failed kinetic surge comes from popular unrest over economic devastation.",
       "confidence": "low",
       "reason": "The primary threat is structural and internal to the armed forces: the military command, realizing the civilian executive spent the nation's irreplaceable reserves on a diplomatic gamble that failed, mounts a preemptive coup (e.g., Casado Coup) to salvage whatever terms it can before total frontline collapse."
+    },
+    {
+      "day": 79,
+      "belief": "Client asymmetric saturation surges can force great-power patrons back into an active defensive commitment by creating intolerable escalatory risk.",
+      "confidence": "low",
+      "reason": "Empirical evidence from Shenzhen shows that Ukraine's 2,000-drone surge against the Crimean Bridge failed to interrupt the bilateral/trilateral diplomatic tracks; the patrons proceeded directly into summits without the client, validating the Day 78 Ebro/Munich precedent."
+    },
+    {
+      "day": 79,
+      "belief": "Patron liquidation of peripheral dependencies occurs through formal institutional channels.",
+      "confidence": "low",
+      "reason": "The Shenzhen trilateral summit bypasses NATO, European allies, and bilateral treaty frameworks entirely, concentrating liquidation authority in personal executive summits."
     }
   ]
 }
