@@ -1,6 +1,6 @@
 {
-  "last_day": 79,
-  "last_date": "2026-11-19",
+  "last_day": 80,
+  "last_date": "2026-11-20",
   "beliefs": [
     {
       "day": 1,
@@ -913,6 +913,18 @@
       "belief": "Patron liquidation of peripheral dependencies occurs through formal institutional channels.",
       "confidence": "low",
       "reason": "The Shenzhen trilateral summit bypasses NATO, European allies, and bilateral treaty frameworks entirely, concentrating liquidation authority in personal executive summits."
+    },
+    {
+      "day": 80,
+      "belief": "Adversary retaliatory escalation during patron armistice talks is held in reserve until after the treaty is codified to act as an enforcement mechanism.",
+      "confidence": 0.15,
+      "reason": "The 1953 Kumsong Offensive demonstrates that the adversary accelerates kinetic retaliation *before* the treaty is initialed, specifically targeting the client's domestic forces while sparing the patron, to physically break the client's spoiler capacity prior to the signing ceremony."
+    },
+    {
+      "day": 80,
+      "belief": "Patrons and adversaries operate as antagonistic opposites during peripheral liquidation summits.",
+      "confidence": 0.25,
+      "reason": "During the final phase of client liquidation, patron and adversary interests converge on suppressing client agency; the adversary provides kinetic amputations that the patron uses as diplomatic leverage to force client submission."
     }
   ]
 }
