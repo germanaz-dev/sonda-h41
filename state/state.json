@@ -1,6 +1,6 @@
 {
-  "last_day": 80,
-  "last_date": "2026-11-20",
+  "last_day": 81,
+  "last_date": "2026-11-21",
   "beliefs": [
     {
       "day": 1,
@@ -925,6 +925,18 @@
       "belief": "Patrons and adversaries operate as antagonistic opposites during peripheral liquidation summits.",
       "confidence": 0.25,
       "reason": "During the final phase of client liquidation, patron and adversary interests converge on suppressing client agency; the adversary provides kinetic amputations that the patron uses as diplomatic leverage to force client submission."
+    },
+    {
+      "day": 81,
+      "belief": "Client regimes caught in an imperial freeze either fold under patron pressure or launch purely rogue military rebellions.",
+      "confidence": 0.2,
+      "reason": "Observed that the client executive adopts a sophisticated dual posture: maintaining legalistic parity narratives for secondary patrons while constructing moral firewall narratives domestically, avoiding overt suicide while actively delegitimizing the patron's peace framework."
+    },
+    {
+      "day": 81,
+      "belief": "The domestic myth of allied betrayal is a retrospective historical rationalization created by defeated client elites.",
+      "confidence": 0.15,
+      "reason": "Evidence demonstrates that the narrative of patron perfidy and moral compromise is actively generated in real time during the negotiation window as an essential survival mechanism to preserve military command authority."
     }
   ]
 }
