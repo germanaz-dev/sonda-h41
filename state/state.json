@@ -1,6 +1,6 @@
 {
-  "last_day": 81,
-  "last_date": "2026-11-21",
+  "last_day": 82,
+  "last_date": "2026-11-22",
   "beliefs": [
     {
       "day": 1,
@@ -937,6 +937,18 @@
       "belief": "The domestic myth of allied betrayal is a retrospective historical rationalization created by defeated client elites.",
       "confidence": 0.15,
       "reason": "Evidence demonstrates that the narrative of patron perfidy and moral compromise is actively generated in real time during the negotiation window as an essential survival mechanism to preserve military command authority."
+    },
+    {
+      "day": 82,
+      "belief": "Secondary regional allies will sustain an abandoned frontline client state out of geographical self-interest or regional solidarity longer than distant primary imperial patrons.",
+      "confidence": "low",
+      "reason": "The 1920 Wrangel/Crimea precedent demonstrates that secondary patron support is strictly parasitic on adjacent crises. France backed the Crimean garrison only while Warsaw was threatened; the moment the Polish armistice was signed, French material aid vanished in weeks, proving secondary patrons abandon the client just as rapidly once the operational diversion is no longer required."
+    },
+    {
+      "day": 82,
+      "belief": "Secondary patrons exit client commitments through gradual diplomatic tapering and negotiated security transfers.",
+      "confidence": "very low",
+      "reason": "When secondary patrons exit after domestic fatigue sets in, the termination is abrupt and transactional; the patron treats the client's collapse as an asset liquidation (as demonstrated by France impounding the Russian Black Sea fleet at Bizerte to offset refugee transport debts)."
     }
   ]
 }
