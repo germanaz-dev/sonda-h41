@@ -1,6 +1,6 @@
 {
-  "last_day": 82,
-  "last_date": "2026-11-22",
+  "last_day": 83,
+  "last_date": "2026-11-23",
   "beliefs": [
     {
       "day": 1,
@@ -949,6 +949,18 @@
       "belief": "Secondary patrons exit client commitments through gradual diplomatic tapering and negotiated security transfers.",
       "confidence": "very low",
       "reason": "When secondary patrons exit after domestic fatigue sets in, the termination is abrupt and transactional; the patron treats the client's collapse as an asset liquidation (as demonstrated by France impounding the Russian Black Sea fleet at Bizerte to offset refugee transport debts)."
+    },
+    {
+      "day": 83,
+      "belief": "Client regimes facing patron abandonment are strictly confined to domestic territorial defense or capitulatory evacuation within their frontline borders.",
+      "confidence": 0.15,
+      "reason": "Invalidated by the Ukrainian strikes in Libya and the Gulf of Finland; low-cost, long-range uncrewed systems allow a compressed client garrison to project kinetic disruption globally, evading the geographic containment intended by great-power armistice negotiators."
+    },
+    {
+      "day": 83,
+      "belief": "Great-power bilateral freezes succeed if the patron and adversary agree on territorial demarcation along the active frontline.",
+      "confidence": 0.25,
+      "reason": "The efficacy of a territorial freeze assumes the conflict is spatially bounded. When the client can strike adversary high-value assets in peripheral overseas theaters (such as North Africa), a territorial freeze fails to deliver security to the adversary, threatening the viability of the entire diplomatic settlement."
     }
   ]
 }
