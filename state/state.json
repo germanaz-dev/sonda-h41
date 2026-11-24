@@ -1,6 +1,6 @@
 {
-  "last_day": 83,
-  "last_date": "2026-11-23",
+  "last_day": 84,
+  "last_date": "2026-11-24",
   "beliefs": [
     {
       "day": 1,
@@ -961,6 +961,18 @@
       "belief": "Great-power bilateral freezes succeed if the patron and adversary agree on territorial demarcation along the active frontline.",
       "confidence": 0.25,
       "reason": "The efficacy of a territorial freeze assumes the conflict is spatially bounded. When the client can strike adversary high-value assets in peripheral overseas theaters (such as North Africa), a territorial freeze fails to deliver security to the adversary, threatening the viability of the entire diplomatic settlement."
+    },
+    {
+      "day": 84,
+      "belief": "An imperial patron facing a client's horizontal asymmetric escalation will not tolerate the client having an operational veto over bilateral peace deals.",
+      "confidence": 0.85,
+      "reason": "The March 1963 precedent demonstrates that when Cuban exile speedboats struck Soviet merchant ships, Kennedy instantly deployed the Coast Guard, FBI, and British colonial forces to intercept, seize, and arrest the raiders, subordinating proxy loyalty to superpower detente."
+    },
+    {
+      "day": 84,
+      "belief": "Adversaries hold patrons strictly liable for client extraterritorial strikes rather than directly engaging the client's asymmetric launch platforms.",
+      "confidence": 0.8,
+      "reason": "Moscow did not deploy naval escorts or hunt exile speedboats across the Caribbean; it delivered direct diplomatic ultimatums to Washington, forcing the White House to act as the primary enforcer against its own proxy."
     }
   ]
 }
