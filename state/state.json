@@ -1,6 +1,6 @@
 {
-  "last_day": 84,
-  "last_date": "2026-11-24",
+  "last_day": 85,
+  "last_date": "2026-11-25",
   "beliefs": [
     {
       "day": 1,
@@ -973,6 +973,18 @@
       "belief": "Adversaries hold patrons strictly liable for client extraterritorial strikes rather than directly engaging the client's asymmetric launch platforms.",
       "confidence": 0.8,
       "reason": "Moscow did not deploy naval escorts or hunt exile speedboats across the Caribbean; it delivered direct diplomatic ultimatums to Washington, forcing the White House to act as the primary enforcer against its own proxy."
+    },
+    {
+      "day": 85,
+      "belief": "Imperial patrons can reliably police and quarantine proxy asymmetric breakout through domestic law enforcement, coastal interdiction, and allied coordination (the 1963 Florida/Bahamas model).",
+      "confidence": 0.3,
+      "reason": "The modularity and low physical footprint of autonomous uncrewed systems allow proxies to decouple from patron territory entirely, staging strikes from the commercial maritime commons or failed-state littorals (e.g., Libya) where patron domestic law and sovereign surveillance cannot reach."
+    },
+    {
+      "day": 85,
+      "belief": "Adversaries absorb proxy strikes in distant peripheral theaters as isolated asymmetric incidents.",
+      "confidence": 0.2,
+      "reason": "Rather than chasing proxy assets into ungoverned peripheral spaces, the adversary redirects kinetic friction directly against the patron's formal alliance structure (cruise missiles in Poland, operations in Denmark) to force the patron to bear the escalation cost of its proxy's breakout."
     }
   ]
 }
