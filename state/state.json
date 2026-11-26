@@ -1,6 +1,6 @@
 {
-  "last_day": 85,
-  "last_date": "2026-11-25",
+  "last_day": 86,
+  "last_date": "2026-11-26",
   "beliefs": [
     {
       "day": 1,
@@ -985,6 +985,18 @@
       "belief": "Adversaries absorb proxy strikes in distant peripheral theaters as isolated asymmetric incidents.",
       "confidence": 0.2,
       "reason": "Rather than chasing proxy assets into ungoverned peripheral spaces, the adversary redirects kinetic friction directly against the patron's formal alliance structure (cruise missiles in Poland, operations in Denmark) to force the patron to bear the escalation cost of its proxy's breakout."
+    },
+    {
+      "day": 86,
+      "belief": "Patron executives face a binary trade-off between expanding alliance security guarantees and coercing an unruly proxy when an adversary strikes treaty perimeters.",
+      "confidence": 0.15,
+      "reason": "The 1954–1955 First Taiwan Strait Crisis proves the two mechanisms are structurally interdependent: the patron uses the expansion of a core defensive umbrella (the Formosa Resolution) precisely to generate the political and moral authority necessary to forcibly disarm the proxy's offensive launchpads (the Dachen evacuation and the Dulles-Yeh notes)."
+    },
+    {
+      "day": 86,
+      "belief": "Client-state asymmetric maritime operations against adversary shipping are a novel feature of 21st-century drone warfare.",
+      "confidence": 0.1,
+      "reason": "The 1953–1954 ROC seizures of the Polish merchantmen *Praca* and *Prezydent Gottwald* and the Soviet tanker *Tuapse* demonstrate that dependent clients have long weaponized commercial maritime choke points to disrupt great-power diplomatic freezes, consistently provoking targeted adversary kinetic retaliation."
     }
   ]
 }
