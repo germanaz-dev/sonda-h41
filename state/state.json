@@ -1,6 +1,6 @@
 {
-  "last_day": 86,
-  "last_date": "2026-11-26",
+  "last_day": 87,
+  "last_date": "2026-11-27",
   "beliefs": [
     {
       "day": 1,
@@ -997,6 +997,18 @@
       "belief": "Client-state asymmetric maritime operations against adversary shipping are a novel feature of 21st-century drone warfare.",
       "confidence": 0.1,
       "reason": "The 1953–1954 ROC seizures of the Polish merchantmen *Praca* and *Prezydent Gottwald* and the Soviet tanker *Tuapse* demonstrate that dependent clients have long weaponized commercial maritime choke points to disrupt great-power diplomatic freezes, consistently provoking targeted adversary kinetic retaliation."
+    },
+    {
+      "day": 87,
+      "belief": "An imperial patron can enforce an armistice by unilaterally withholding offensive munitions and imposing legal vetoes on its proxy.",
+      "confidence": 0.3,
+      "reason": "When a client builds indigenous asymmetric systems (uncrewed drones) and embeds its industrial sustainment in secondary allies and multinational defense conglomerates (e.g., Rheinmetall), the primary patron's inventory controls become porous and insufficient to enforce a operational freeze."
+    },
+    {
+      "day": 87,
+      "belief": "Great-power bilateral summits (such as the Shenzhen trilateral) can establish stable regional partitions across multiple theaters simultaneously.",
+      "confidence": 0.25,
+      "reason": "Peripheral conflicts refuse temporal synchronization. As evidenced by North Korea's nuclear acceleration and deniable kinetic strikes killing European defense contractors in Kuwait, peripheral and regional actors exploit the patron's divided focus, shattering synthetic freezes."
     }
   ]
 }
