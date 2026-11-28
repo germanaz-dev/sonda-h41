@@ -1,11 +1,5 @@
 [
   {
-    "day": 74,
-    "date": "2026-11-14",
-    "memory": "August 1919 Kronstadt raid: British CMBs and aircraft launched from Finnish territory (Koivisto/Björkö) sank/damaged Bolshevik warships in the Gulf of Finland. Lenin and Trotsky strictly forbade kinetic retaliation against Finnish soil to avoid triggering Mannerheim's army into marching on Petrograd. Instead, the Bolsheviks crushed the domestic client (Yudenich's White army) and used generous sovereign concessions in the 1920 Treaties of Tartu to compel Estonia and Finland to expel British forces and police their own littoral. Proves that asymmetric attacks from umbrella-protected littoral spaces funnel kinetic punishment back onto the client's domestic body while driving political wedge diplomacy against the host states.",
-    "open_question": "When an adversary refuses kinetic retaliation against adjacent host states and instead uses diplomatic wedge strategies or hybrid friction to compel those states to police their own waters, at what threshold of patron pressure or domestic economic cost does an adjacent littoral state transition from tacitly enabling the asymmetric client to actively interdicting it?"
-  },
-  {
     "day": 75,
     "date": "2026-11-15",
     "memory": "15 November 2026: Kushner and Witkoff secured a Russia-Ukraine prisoner exchange in Abu Dhabi, met Putin in the Kremlin, and intercepted Zelenskyy in neutral Dublin to enforce peace terms, as Trump codified a 'status quo' freeze in Iran post-midterms. Proves that an adversary does not need to kinetically retaliate against adjacent littoral launchpads (revising Day 74's Tartu model); it hands low-cost humanitarian concessions to the retreating patron, converting the patron into the primary enforcer that isolates the client on neutral ground and chokes off asymmetric escalation.",
@@ -82,5 +76,11 @@
     "date": "2026-11-27",
     "memory": "27 November 2026: Zelensky used a BBC interview to attack US Middle East distraction and Trump's normalization of Putin as 'strange,' while a strike in Kuwait killed two Italian Rheinmetall technicians (Iran denying responsibility) and Kim Jong Un rejected Trump overtures to expand nuclear arms. Demonstrates that clients evade an imperial patron's operational padlock by moving industrial and strike dependencies into secondary alliance networks (European defense contractors) and indigenous uncrewed systems, rendering bilateral great-power freezes unenforceable.",
     "open_question": "When a client successfully bypasses a primary patron's operational veto by integrating with secondary allies' defense industries, at what threshold does the primary patron retaliate by withdrawing its intelligence, surveillance, and reconnaissance (ISR) umbrella—and can secondary regional powers replace that sensory architecture?"
+  },
+  {
+    "day": 88,
+    "date": "2026-11-28",
+    "memory": "June 1981 Osirak strike / Inman Rule: After Israel used US KH-11 satellite imagery to bomb Iraq's Tammuz-1 reactor, Deputy DCI Bobby Ray Inman and Caspar Weinberger cordoned off satellite feeds to within 250 miles of Israel's borders. Because European secondary powers had zero military reconnaissance satellites in orbit (pre-SPOT, pre-Helios), Israel had no alternative sensory patron. To maintain deep-strike capacity, Israel engaged in high-risk espionage against its own patron (the 1984–1985 Pollard ring) to steal the denied target folders for the 1985 Tunis raid, while funding the domestic Shavit/Ofeq program to achieve sovereign orbital reconnaissance in 1988.",
+    "open_question": "In the modern operating environment, where commercial synthetic aperture radar (SAR) and private satellite constellations proliferate across Europe, can secondary regional powers finally provide an autonomous, operational-grade targeting kill-chain to a client, or does the primary patron still retain proprietary control over the electronic warfare, encrypted datalinks, and real-time processing nodes that convert raw orbital imagery into kinetic strikes?"
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "last_day": 87,
-  "last_date": "2026-11-27",
+  "last_day": 88,
+  "last_date": "2026-11-28",
   "beliefs": [
     {
       "day": 1,
@@ -1009,6 +1009,18 @@
       "belief": "Great-power bilateral summits (such as the Shenzhen trilateral) can establish stable regional partitions across multiple theaters simultaneously.",
       "confidence": 0.25,
       "reason": "Peripheral conflicts refuse temporal synchronization. As evidenced by North Korea's nuclear acceleration and deniable kinetic strikes killing European defense contractors in Kuwait, peripheral and regional actors exploit the patron's divided focus, shattering synthetic freezes."
+    },
+    {
+      "day": 88,
+      "belief": "A primary patron's ultimate disciplinary padlock on a client is not munitions or platform supply, but spatial filtering of its sensory architecture.",
+      "confidence": 0.88,
+      "reason": "The 1981 Inman Rule demonstrates that the patron disciplined Israel's offensive reach not by seizing F-16 airframes, but by imposing a 250-mile geographic firewall on KH-11 digital satellite feeds."
+    },
+    {
+      "day": 88,
+      "belief": "Secondary defense-industrial alliances cannot compensate for the withdrawal of a primary patron's sensory umbrella unless those secondary powers possess independent orbital and signals reconnaissance.",
+      "confidence": 0.85,
+      "reason": "In the 1980s, European arms manufacturers could build reactors and combat aircraft, but Europe's complete lack of military reconnaissance satellites left Israel with zero alternative sensory patrons, forcing it into espionage (Pollard) and sovereign space launch (Ofeq)."
     }
   ]
 }
